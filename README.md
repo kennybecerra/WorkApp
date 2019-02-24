@@ -1,10 +1,10 @@
 # WorkApp
 
-Third-Party Security Review User Interface. See the Web App [here](https://kennybecerra.github.io/WorkApp/)
+User Interface for modifying and database tables via Sharepoitn REST API calls. See the Web App [here](https://kennybecerra.github.io/WorkApp/)
 
 ## Description
 
-User interface for the Third-Party Security (TSR) Team. The Web App allows team members to access data stored in sharepoint backend tables and make modifications to assessment records for day-to-day work.
+This is the User interface for the teams internal applications. The Web App allows team members to access data stored in sharepoint backend tables and make modifications to assessment records for day-to-day work. All data and information has been scrubbed for offline use.
 
 ![Website Screenshot](https://github.com/kennybecerra/WorkApp/blob/master/src/assets/images/Website_Screenshot.png "WorkApp")
 
