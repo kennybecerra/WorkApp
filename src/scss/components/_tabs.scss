@@ -1,0 +1,51 @@
+
+.tabs {
+    width: 90%;
+    margin: 3rem auto;
+
+    &--text {
+        font-size: $font-size1;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    &__header {
+       
+        &--tab {
+
+            display: inline-block;
+            background-color: #f2f2f2;
+            border-top: 1px solid #ccc;
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid white;         
+            outline: none;
+            cursor: pointer;
+            padding: 1rem 1.2rem;
+            transition: background-color 0.3s;
+            font-size: $font-size4;
+            margin: 0px;
+
+            &:hover {
+                background-color: #ddd;
+            }
+        }
+    }
+    
+    &__body {
+        width: 100%;
+        display: block;
+
+        &--content {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+            clear: both;
+        }
+    }
+
+    &__Active {
+        background-color: white;
+    }
+}

@@ -1,0 +1,179 @@
+.formItem {
+  display: block;
+  width: 100%;
+  margin: 10px 0px;
+  overflow-x: hidden;
+
+  &__label {
+    display: block;
+    font-size: $labelSize;
+    margin: 5px 0px;
+  }
+
+  &__textarea {
+    display: inline-block;
+    font-size: $inputFontSize;
+    padding: 0.5rem !important;
+    min-height: 60px;
+    height: 120px;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  &__btn {
+    display: inline-block;
+    //height: 100% !important;
+    padding: 7px 7px 7px 7px !important;
+    margin: 3px 0px 0px 0px !important;
+    //width: 23% !important;
+    font-size: $btnFontSize;
+    box-sizing: border-box;
+  }
+
+  &__container {
+    height: $inputTextHeight;
+    position: relative;
+
+    &--text {
+      display: inline-block;
+      height: 100% !important;
+      margin: 0px !important;
+      padding: 0px 0px 0px 5px !important;
+      font-size: $inputFontSize;
+      width: 75% !important;
+      box-sizing: border-box;
+    }
+
+    &--btn {
+      display: inline-block;
+      height: 100% !important;
+      margin: 0px 0px 0px 5px !important;
+      padding: 0 !important;
+      position: absolute;
+      width: 23% !important;
+      font-size: $btnFontSize;
+      box-sizing: border-box;
+    }
+
+    &--select {
+      display: inline-block;
+      height: 100% !important;
+      margin: 0px !important;
+      padding: 0px 0px 0px 5px !important;
+      width: 75% !important;
+      font-size: $inputFontSize;
+      box-sizing: border-box;
+    }
+
+    &--date {
+      display: inline-block;
+      height: 100% !important;
+      margin: 0px !important;
+      padding: 0px 0px 0px 5px !important;
+      width: 75% !important;
+      font-size: $inputFontSize;
+      box-sizing: border-box;
+    }
+  }
+}
+
+.formItem2 {
+  display: block;
+  width: 100%;
+  margin: 5px 0px;
+
+  &__container {
+    min-height: $inputTextHeight;
+    height: $inputTextHeight;
+    position: relative;
+    //border: 2px solid blue;
+
+    &--label {
+      display: inline-block;
+      height: 100% !important;
+      margin: 0px !important;
+      padding: 0px 0px 0px 5px !important;
+      font-size: $labelFontSize;
+      width: $inputWidth !important;
+      box-sizing: border-box;
+    }
+
+    &--text {
+      display: inline-block;
+      height: 100% !important;
+      margin: 0px 2.5px !important;
+      padding: 0px 0px 0px 5px !important;
+      font-size: $inputFontSize;
+      width: $inputWidth !important;
+      box-sizing: border-box;
+    }
+
+    &--btn {
+      display: inline-block;
+      height: 100% !important;
+      margin: 0px 0px 0px 5px !important;
+      padding: 0 !important;
+      position: absolute;
+      width: $inputWidth !important;
+      font-size: $btnFontSize;
+      box-sizing: border-box;
+    }
+
+    &--select {
+      display: inline-block;
+      height: 100% !important;
+      margin: 0px 2.5px !important;
+      padding: 0px 0px 0px 5px !important;
+      width: $inputWidth !important;
+      font-size: $inputFontSize;
+      box-sizing: border-box;
+    }
+
+    &--date {
+      display: inline-block;
+      height: 100% !important;
+      margin: 0px 2.5px !important;
+      padding: 0px 0px 0px 5px !important;
+      width: $inputWidth !important;
+      font-size: $inputFontSize;
+      box-sizing: border-box;
+    }
+  }
+}
+
+/*
+.formItem2 {
+  display: block;
+  width: 100%;
+  margin: 10px 0px;
+  border: 1px solid green;
+
+  &__label {
+    display: block;
+    font-size: $font-size4;
+  }
+
+  &__content {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: $font-size4;
+    padding: 0 0.5rem !important;
+    height: $font-size4 + 0.5rem !important;
+    margin: 0 !important;
+    width: 75% !important;
+  }
+
+  &__btn {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: $font-size5 !important;
+    height: !important;
+    padding: 7px 5px 4px 5px !important;
+    text-align: center;
+    width: 23% !important;
+    align-items: center !important;
+  }
+}
+
+*/

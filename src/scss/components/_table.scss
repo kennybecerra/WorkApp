@@ -1,0 +1,246 @@
+.tableDisplay {
+  width: 100%;
+}
+
+th.dt-center,
+td.dt-center {
+  text-align: center;
+}
+
+.row__selected {
+  background-color: #acbad4 !important;
+}
+
+.tableContainer {
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  width: 90%;
+  margin: 1rem auto;
+  //border: 3px solid green;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+
+  &__top {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    height: $colHeight + 2rem;
+    background-color: $headerBackCol;
+    //-ms-overflow-style: -ms-autohiding-scrollbar;
+    //-ms-overflow-style: none;
+
+    scrollbar-track-color: $headerBackCol;
+    scrollbar-3dlight-color: $headerBackCol;
+    scrollbar-darkshadow-color: $headerBackCol;
+    scrollbar-arrow-color: $headerBackCol;
+
+    scrollbar-base-color: $headerBackCol;
+    scrollbar-face-color: $headerBackCol;
+    scrollbar-3dlight-color: $headerBackCol;
+    scrollbar-highlight-color: $headerBackCol;
+    scrollbar-track-color: $headerBackCol;
+    scrollbar-arrow-color: $headerBackCol;
+    scrollbar-shadow-color: $headerBackCol;
+    scrollbar-darkshadow-color: $headerBackCol;
+    //scrollbar-dark-shadow-color: $headerBackCol;
+
+    &::-webkit-scrollbar {
+      height: 7px;
+      width: 7px;
+      border-radius: 10px;
+      opacity: 0;
+      //display: none;
+      //visibility: hidden;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      //box-shadow: inset 0 0 5px grey;
+      //border-radius: 10px;
+      //visibility: hidden;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      opacity: 0;
+      background: $headerBackCol;
+      border-radius: 10px;
+      width: 4px;
+      height: 4px;
+      //visibility: hidden;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      //background: #b30000;
+      //visibility: hidden;
+    }
+
+    &::-webkit-scrollbar-corner {
+      visibility: hidden;
+    }
+  }
+
+  &__bottom {
+    overflow-x: scroll;
+    overflow-y: scroll;
+
+    height: 250px;
+
+    &::-webkit-scrollbar {
+      height: 7px;
+      width: 7px;
+      border-radius: 10px;
+      opacity: 0;
+      //display: none;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey;
+      //border-radius: 10px;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      opacity: 0;
+      background: $bodyScrollCol;
+      border-radius: 10px;
+      width: 4px;
+      height: 4px;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: $bodyScrollHov;
+    }
+
+    &::-webkit-scrollbar-corner {
+      visibility: hidden;
+    }
+  }
+}
+
+.tableHeader {
+  box-sizing: border-box;
+  display: table;
+  border-spacing: 0px;
+  height: 100%;
+  width: $colWidth * $numCols;
+  padding: 0;
+  margin: 0;
+
+  &__col {
+    box-sizing: border-box;
+    display: table-cell;
+    width: $colWidth;
+    min-width: $colWidth;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    border: 0px;
+    padding-top: 10px;
+    font-size: $tableHeaderSize;
+    //border: 1px dotted green;
+  }
+}
+
+.tableBody {
+  box-sizing: border-box;
+  display: table;
+  border-spacing: 0px;
+  height: 100%;
+  width: $colWidth * $numCols;
+  padding: 0;
+  margin: 0;
+
+  &__row {
+    //color: white;
+    border: 0;
+    height: $colHeight;
+    max-width: $colWidth * $numCols;
+
+    &:nth-child(even) {
+      background-color: $stripeCol;
+    }
+
+    &:hover {
+      //background-color: $onHoverCol;
+    }
+
+    &__col {
+      display: table-cell;
+      width: $colWidth;
+      min-width: $colWidth;
+      text-align: center;
+      color: $fontCol;
+      vertical-align: middle;
+      margin: 0px;
+      padding: 0px;
+      font-weight: 400;
+      font-size: $tableColSize;
+      //line-height: $colHeight;
+    }
+
+    &__selected {
+      background-color: $onSelectCol !important;
+    }
+  }
+}
+
+/*
+.table {
+   
+    box-sizing: border-box;
+    display: table;
+    height: 100%;
+    width: $colWidth * $numCols;
+    padding: 0;
+    margin: 0;
+
+
+   &__col {
+
+        box-sizing: border-box;
+        display: table-cell;
+        width: $colWidth;
+        min-width: $colWidth;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        border: 0px;
+        padding-top: 10px;
+        //border: 1px dotted green;
+    }
+}
+
+
+.trow {
+    
+    //color: white;
+    border: 0;
+    height: $colHeight;
+    max-width: $colWidth * $numCols;
+
+    &:nth-child(even) {
+        background-color: $stripeCol;
+    }
+
+    &__col {
+        display: table-cell;
+        width: $colWidth;
+        min-width: $colWidth;
+        text-align: center;
+        color: $fontCol;
+        vertical-align: middle;
+        margin: 0px;
+        padding: 0px;
+        //line-height: $colHeight;
+    }
+}*/

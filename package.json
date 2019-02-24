@@ -1,0 +1,41 @@
+{
+  "name": "projecttemplate",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config=config/webpack.dev.js --open",
+    "dev": "webpack --config=config/webpack.dev.js --mode development",
+    "prod": "webpack --config=config/webpack.prod.js --mode production",
+    "host": "webpack --config=config/webpack.host.js --mode production",
+    "sp": "webpack --config=config/webpack.sp.js --mode production"
+  },
+  "browserslist": [
+    "last 5 versions"
+  ],
+  "keywords": [],
+  "author": "Kenny Becerra",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "autoprefixer": "^9.1.3",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.2.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}

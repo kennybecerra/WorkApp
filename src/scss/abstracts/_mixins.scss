@@ -1,0 +1,57 @@
+//Media Queries
+
+// RESPONSIVE DESKTOP FIRST DESIGN
+/*
+-- 600px        : phone
+600px - 900px   : tab
+900x -1200px    : tab-port
+1200px - 1800px : NORMAL DEFAULT CSS
+1800px+         : big-desktop
+*/
+
+@mixin ResponsiveDesktopFirst($breakpoint) {
+    @if $breakpoint == phone {
+        @media (max-width: 37.5em) {@content};
+    }
+
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.25em) {@content};
+    }
+
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) {@content};
+    }
+
+    //Desktop is the CSS already created by default
+
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) {@content};
+    }
+}
+
+
+// RESPONSIVE MOBILE FIRST DESIGN BREAKPOINTS
+/*
+600px - 900px  : tab
+900px - 1200px : tab-port
+1200px -1800px : desktop
+1800px+        : big-desktop
+*/
+
+@mixin ResponsiveMobileFirst($breakpoint) {
+    @if $breakpoint == tab {
+        @media (min-width: 37.5em) {@content};
+    }
+
+    @if $breakpoint == tab-port {
+        @media (min-width: 56.25em) {@content};
+    }
+
+    @if $breakpoint == desktop {
+        @media (min-width: 75em) {@content};
+    }
+
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) {@content};
+    }
+}

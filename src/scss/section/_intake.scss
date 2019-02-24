@@ -1,0 +1,41 @@
+.IQsection {
+
+    border: 1px solid #DDDDDD;
+    margin: 10px 0px 20px 0px;
+    padding: 12px 6px 10px 6px;
+    border-radius: 5px;
+
+    &__label {
+        display: block;
+        float: left;
+        margin-top: -22px;
+        background: #FFFFFF;
+        height: 18px;
+        padding: 2px 5px 2px 5px;
+        color: #B9B9B9;
+        font-size: 14px;
+        overflow: hidden;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    &__comments {
+        display: inline-block;
+        min-height: $inputTextHeight;
+        height: $inputTextHeight;   
+        margin: 5px 0px!important;
+        padding: 2px 0px 0px 0px !important;
+        font-size: $labelFontSize;
+        width: 100% !important;
+        box-sizing: border-box;
+        text-align: center;
+        //border: 2px solid blue;
+    }
+}
+
+.contactInfo {
+
+}
+
+.questions {
+
+}

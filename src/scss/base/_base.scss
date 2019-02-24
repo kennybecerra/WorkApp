@@ -1,0 +1,34 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* Will set the standard font size of the webpage tp 10px in order to facilitate the use of rem in the whole site*/
+  font-size: 62.5%; // 1rem = 10px  assuming browser default of 16px 62.5% * 16px = 10px;
+  //font-size: 8.5px;
+}
+
+body {
+    box-sizing: border-box;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500
+}
+
+.mainContainer {
+  min-width: $minAppWidth;
+  max-width: $maxAppWidth;
+}
+
+#sideNavBox {
+  display: none;
+  width: 0px;
+}
+
+#contentBox {
+  margin-left: 0px!important
+}

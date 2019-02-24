@@ -1,0 +1,53 @@
+:root {
+  --text-color: #333;
+}
+
+/* SASS VARIABLES */
+
+$font-size1: 2.5rem;
+$font-size2: 2rem;
+$font-size3: 1.8rem;
+$font-size4: 1.5rem;
+$font-size5: 1.2rem;
+
+/* Base variables*/
+$minAppWidth: 1000px;
+$maxAppWidth: 1200px;
+$appWidth: 1000px;
+
+/* Intake Questionanire Variables*/
+$inputWidth: 23%;
+$inputMaxWidth: 350px;
+$commentWidth: 150px;
+$labelFontSize: 1.5rem;
+
+/* Table variables */
+$colWidth: 15rem;
+$colHeight: 3rem;
+$numCols: 11;
+
+$stripeCol: #f8f6ff;
+$onHoverCol: #cccccc;
+$onSelectCol: #cccccc;
+
+$tableHeaderSize: 1.3rem;
+$tableColSize: 1.3rem;
+
+$fontCol: #808080;
+$headerBackCol: #6c7ae0;
+
+$bodyScrollCol: #5766db;
+$bodyScrollHov: #283abd;
+
+/* FormItem Variables*/
+$labelSize: 1.2rem;
+$inputTextHeight: 2.5rem;
+$inputFontSize: 1.3rem;
+$btnFontSize: 1rem;
+
+$tab: 600px;
+$tab-port: 900px;
+$desktop: 1200px;
+$big-desktop: 1800px;
+
+$text-color: #333;

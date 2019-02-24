@@ -1,0 +1,51 @@
+.mainContainer {
+  width: 80%;
+  margin: auto;
+
+  &--text {
+    font-size: $font-size1;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  &__header {
+    &--tab {
+      background-color: #f2f2f2;
+      border-top: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      border-bottom: 1px solid white;
+      z-index: 2;
+
+      display: inline-block;
+      outline: none;
+      cursor: pointer;
+      padding: 1rem 1.2rem;
+      transition: background-color 0.3s;
+      font-size: $font-size2;
+      margin: 0px;
+
+      &:hover {
+        background-color: #ddd;
+      }
+    }
+  }
+
+  &__body {
+    width: 100%;
+    display: block;
+  }
+}
+
+.tabActive {
+  //background-color: #ccc;
+  background-color: white;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  clear: both;
+}
