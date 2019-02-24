@@ -417,7 +417,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "YBW1",
+      ControlAssessor: "Person 1",
       DataClassification: "Confidential",
       DateIQUploaded: "2017-05-02T02:10:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -434,7 +434,7 @@ var TSR_Model = (function () {
       },
       LOBNameId: 7,
       OrderNumber: "123143",
-      ProjectName: "Wildfire",
+      ProjectName: "Special Project",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
@@ -443,12 +443,12 @@ var TSR_Model = (function () {
       Third_x0020_Party_x0020_Name: "Radius Global Market",
       ThirdPartyName: {
         ID: 1105,
-        Third_x0020_Party_x0020_Name: "AM Conservation Group"
+        Third_x0020_Party_x0020_Name: "Vendor A"
       },
       Tier: 1,
       TSr_x0020_Status:
         "LOB to ensure the vendor responds to the Assessors request for additional evidence.",
-      OriginalAssessor: "YBW1"
+      OriginalAssessor: "Person 3"
     },
     {
       ActionNeeded: "Do things",
@@ -460,7 +460,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "K3bi",
+      ControlAssessor: "Person 4",
       DataClassification: "Internal",
       DateIQUploaded: "2018-10-02T02:10:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -477,7 +477,7 @@ var TSR_Model = (function () {
       },
       LOBNameId: 7,
       OrderNumber: "7299462",
-      ProjectName: "GII Planning",
+      ProjectName: "Planning Project",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
@@ -486,11 +486,11 @@ var TSR_Model = (function () {
       Third_x0020_Party_x0020_Name: "Admail West",
       ThirdPartyName: {
         ID: 1105,
-        Third_x0020_Party_x0020_Name: "AM Conservation Group"
+        Third_x0020_Party_x0020_Name: "Vendor B"
       },
       Tier: 2,
       TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "YBW1"
+      OriginalAssessor: "Person 5"
     },
     {
       ActionNeeded: "Do things",
@@ -502,7 +502,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "JN2B",
+      ControlAssessor: "Person 3",
       DataClassification: "Public",
       DateIQUploaded: "2018-11-02T02:10:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -519,7 +519,7 @@ var TSR_Model = (function () {
       },
       LOBNameId: 7,
       OrderNumber: "000000",
-      ProjectName: "Remedy Upgrades",
+      ProjectName: "Upgrade Project",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: null,
       Remediation_Needed: "No",
@@ -528,12 +528,12 @@ var TSR_Model = (function () {
       Third_x0020_Party_x0020_Name: "Radius Global Market",
       ThirdPartyName: {
         ID: 287,
-        Third_x0020_Party_x0020_Name: "PriceWaterHouseCoopers LLP"
+        Third_x0020_Party_x0020_Name: "Vendor C"
       },
       Tier: 1,
       TSr_x0020_Status:
         "Assessor received SOC report and currently reviewing/mapping security controls",
-      OriginalAssessor: "YBW1"
+      OriginalAssessor: "Person 3"
     },
     {
       ActionNeeded: "Do things",
@@ -545,7 +545,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "K3BI",
+      ControlAssessor: "Person 1",
       DataClassification: "Restricted",
       DateIQUploaded: "2018-12-02T02:10:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -562,7 +562,7 @@ var TSR_Model = (function () {
       },
       LOBNameId: 7,
       OrderNumber: "123143",
-      ProjectName: "GII Planning",
+      ProjectName: "End of year Project",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
@@ -571,12 +571,12 @@ var TSR_Model = (function () {
       Third_x0020_Party_x0020_Name: "Radius Global Market",
       ThirdPartyName: {
         ID: 684,
-        Third_x0020_Party_x0020_Name: "Enviance"
+        Third_x0020_Party_x0020_Name: "Vendor D"
       },
       Tier: 3,
       TSr_x0020_Status:
         "LOB to ensure the vendor completes and returns Controls Questionnaire.",
-      OriginalAssessor: "YBW1"
+      OriginalAssessor: "Person 1"
     },
     {
       ActionNeeded: "Do things",
@@ -588,7 +588,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "YBW1",
+      ControlAssessor: "Person 1",
       DataClassification: "Internal",
       DateIQUploaded: "2018-10-02T02:10:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -605,7 +605,7 @@ var TSR_Model = (function () {
       },
       LOBNameId: 10,
       OrderNumber: "123143",
-      ProjectName: "GII Planning",
+      ProjectName: "Planning Project",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
@@ -614,11 +614,11 @@ var TSR_Model = (function () {
       Third_x0020_Party_x0020_Name: "Radius Global Market",
       ThirdPartyName: {
         ID: 287,
-        Third_x0020_Party_x0020_Name: "PriceWaterHouseCoopers LLP"
+        Third_x0020_Party_x0020_Name: "Vendor E"
       },
       Tier: 3,
       TSr_x0020_Status: "LOB to ensure vendor mitigates deficient controls.",
-      OriginalAssessor: "YBW1"
+      OriginalAssessor: "Person 1"
     },
     {
       ActionNeeded: "Do things",
@@ -630,7 +630,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "K3BI",
+      ControlAssessor: "Person 3",
       DataClassification: "Internal",
       DateIQUploaded: "2019-10-02T02:10:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -647,7 +647,7 @@ var TSR_Model = (function () {
       },
       LOBNameId: 10,
       OrderNumber: "123143",
-      ProjectName: "GII Planning",
+      ProjectName: "Planning Project",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
@@ -656,11 +656,11 @@ var TSR_Model = (function () {
       Third_x0020_Party_x0020_Name: "Radius Global Market",
       ThirdPartyName: {
         ID: 1103,
-        Third_x0020_Party_x0020_Name: "FIS"
+        Third_x0020_Party_x0020_Name: "Vendor F"
       },
       Tier: 2,
       TSr_x0020_Status: "On Hold",
-      OriginalAssessor: "YBW1"
+      OriginalAssessor: "Person 1"
     },
     {
       ActionNeeded: "Do things",
@@ -672,7 +672,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "YBW1",
+      ControlAssessor: "Person 2",
       DataClassification: "Internal",
       DateIQUploaded: "2019-09-02T02:10:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -689,7 +689,7 @@ var TSR_Model = (function () {
       },
       LOBNameId: 10,
       OrderNumber: "123143",
-      ProjectName: "GII Planning",
+      ProjectName: "Another Project",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
@@ -698,11 +698,11 @@ var TSR_Model = (function () {
       Third_x0020_Party_x0020_Name: "Radius Global Market",
       ThirdPartyName: {
         ID: 1099,
-        Third_x0020_Party_x0020_Name: "Figure Eight"
+        Third_x0020_Party_x0020_Name: "Vendor G"
       },
       Tier: 1,
       TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "K3BI"
+      OriginalAssessor: "Person 2"
     },
     {
       ActionNeeded: "Do things",
@@ -714,7 +714,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "YBW1",
+      ControlAssessor: "Person 4",
       DataClassification: "Internal",
       DateIQUploaded: "2019-05-02T02:10:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -731,7 +731,7 @@ var TSR_Model = (function () {
       },
       LOBNameId: 10,
       OrderNumber: "123143",
-      ProjectName: "GII Planning",
+      ProjectName: "Upgrade Project",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
@@ -740,11 +740,11 @@ var TSR_Model = (function () {
       Third_x0020_Party_x0020_Name: "Radius Global Market",
       ThirdPartyName: {
         ID: 1088,
-        Third_x0020_Party_x0020_Name: "Syserco Energy"
+        Third_x0020_Party_x0020_Name: "Vendor H"
       },
       Tier: 2,
       TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "K3BI"
+      OriginalAssessor: "Person 1"
     },
     {
       ActionNeeded: "Do things",
@@ -756,7 +756,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "JN2B",
+      ControlAssessor: "Person 5",
       DataClassification: "Internal",
       DateIQUploaded: "2019-10-02T02:10:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -773,7 +773,7 @@ var TSR_Model = (function () {
       },
       LOBNameId: 10,
       OrderNumber: "123143",
-      ProjectName: "GII Planning",
+      ProjectName: "End of year Project",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
@@ -782,11 +782,11 @@ var TSR_Model = (function () {
       Third_x0020_Party_x0020_Name: "Radius Global Market",
       ThirdPartyName: {
         ID: 215,
-        Third_x0020_Party_x0020_Name: "BI Worldwide"
+        Third_x0020_Party_x0020_Name: "Vendor I"
       },
       Tier: 1,
       TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "K3BI"
+      OriginalAssessor: "Person 4"
     },
     {
       ActionNeeded: "Do things",
@@ -798,7 +798,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "M2O1",
+      ControlAssessor: "Person 2",
       DataClassification: "Internal",
       DateIQUploaded: "2017-05-02T02:50:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -815,7 +815,7 @@ var TSR_Model = (function () {
       },
       LOBNameId: 10,
       OrderNumber: "123143",
-      ProjectName: "Wildfire Project",
+      ProjectName: "Start of Year Project",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
@@ -824,11 +824,11 @@ var TSR_Model = (function () {
       Third_x0020_Party_x0020_Name: "Radius Global Market",
       ThirdPartyName: {
         ID: 1089,
-        Third_x0020_Party_x0020_Name: "Allsup Inc."
+        Third_x0020_Party_x0020_Name: "Vendor J"
       },
       Tier: 3,
       TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "K3BI"
+      OriginalAssessor: "Person 5"
     },
     {
       ActionNeeded: "Do things",
@@ -840,7 +840,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "M2O1",
+      ControlAssessor: "Person 2",
       DataClassification: "Internal",
       DateIQUploaded: "2018-02-02T02:50:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -857,7 +857,7 @@ var TSR_Model = (function () {
       },
       LOBNameId: 10,
       OrderNumber: "123143",
-      ProjectName: "Wildfire Project",
+      ProjectName: "Fake Project",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
@@ -866,11 +866,11 @@ var TSR_Model = (function () {
       Third_x0020_Party_x0020_Name: "Radius Global Market",
       ThirdPartyName: {
         ID: 1079,
-        Third_x0020_Party_x0020_Name: "Salesforce Inc."
+        Third_x0020_Party_x0020_Name: "Vendor K"
       },
       Tier: 3,
       TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "K3BI"
+      OriginalAssessor: "Person 2"
     },
     {
       ActionNeeded: "Do things",
@@ -882,7 +882,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "JN2B",
+      ControlAssessor: "Person 4",
       DataClassification: "Internal",
       DateIQUploaded: "2018-02-02T02:50:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -908,11 +908,11 @@ var TSR_Model = (function () {
       Third_x0020_Party_x0020_Name: "Radius Global Market",
       ThirdPartyName: {
         ID: 1069,
-        Third_x0020_Party_x0020_Name: "Zappy ride"
+        Third_x0020_Party_x0020_Name: "Vendor L"
       },
       Tier: 3,
       TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "YBW1"
+      OriginalAssessor: "Person 3"
     },
     {
       ActionNeeded: "Do things",
@@ -924,7 +924,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "JN2B",
+      ControlAssessor: "Person 1",
       DataClassification: "Internal",
       DateIQUploaded: "2018-02-02T02:50:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -941,7 +941,7 @@ var TSR_Model = (function () {
       },
       LOBNameId: 10,
       OrderNumber: "123143",
-      ProjectName: "Project 23452",
+      ProjectName: "Project 22222",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
@@ -950,11 +950,11 @@ var TSR_Model = (function () {
       Third_x0020_Party_x0020_Name: "Radius Global Market",
       ThirdPartyName: {
         ID: 1059,
-        Third_x0020_Party_x0020_Name: "Charles Schwab"
+        Third_x0020_Party_x0020_Name: "Vendor M"
       },
       Tier: 4,
       TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "YBW1"
+      OriginalAssessor: "Person 4"
     },
     {
       ActionNeeded: "Do things",
@@ -966,7 +966,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "JN2B",
+      ControlAssessor: "Person 3",
       DataClassification: "Internal",
       DateIQUploaded: "2018-02-02T02:50:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -983,7 +983,7 @@ var TSR_Model = (function () {
       },
       LOBNameId: 10,
       OrderNumber: "123143",
-      ProjectName: "Project 23452",
+      ProjectName: "Project 333333",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
@@ -992,11 +992,11 @@ var TSR_Model = (function () {
       Third_x0020_Party_x0020_Name: "Radius Global Market",
       ThirdPartyName: {
         ID: 1049,
-        Third_x0020_Party_x0020_Name: "Facebook Inc."
+        Third_x0020_Party_x0020_Name: "Vendor N"
       },
       Tier: 4,
       TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "YBW1"
+      OriginalAssessor: "Person 3"
     },
     {
       ActionNeeded: "Do things",
@@ -1008,7 +1008,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "JN2B",
+      ControlAssessor: "Person 5",
       DataClassification: "Internal",
       DateIQUploaded: "2019-01-01T02:50:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -1025,7 +1025,7 @@ var TSR_Model = (function () {
       },
       LOBNameId: 10,
       OrderNumber: "123143",
-      ProjectName: "Project 23452",
+      ProjectName: "Project 23232323",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
@@ -1034,11 +1034,11 @@ var TSR_Model = (function () {
       Third_x0020_Party_x0020_Name: "Radius Global Market",
       ThirdPartyName: {
         ID: 1039,
-        Third_x0020_Party_x0020_Name: "D3 Security"
+        Third_x0020_Party_x0020_Name: "Vendor O"
       },
       Tier: 4,
       TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "YBW1"
+      OriginalAssessor: "Person 1"
     }
   ];
 
@@ -3559,7 +3559,7 @@ var TSR_App = (function (model, view) {
       currentRow: null,
       table: null
     },
-    usingSP: true,
+    usingSP: false,
     currentUser: null,
     lastreLoad: null
   };
