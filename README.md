@@ -1,6 +1,6 @@
 # WorkApp
 
-User Interface for modifying and database tables via Sharepoitn REST API calls. See the Web App [here](https://kennybecerra.github.io/WorkApp/)
+User Interface for modifying backend database tables via Sharepoint REST API calls. See the Web App [here](https://kennybecerra.github.io/WorkApp/)
 
 ## Description
 
