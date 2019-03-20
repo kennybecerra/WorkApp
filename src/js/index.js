@@ -1,7 +1,7 @@
 import normalize from "../scss/vendor/normalize.css";
 //import skeleton from "../scss/vendor/skeleton.css";
 import style from "../scss/main.scss";
-//import $ from "jquery";
+
 
 /// JQUERY TOAST --- START -----
 // jQuery toast plugin created by Kamran Ahmed copyright MIT license 2015
@@ -417,7 +417,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "Person 1",
+      ControlAssessor: "Person 2",
       DataClassification: "Confidential",
       DateIQUploaded: "2017-05-02T02:10:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -427,28 +427,28 @@ var TSR_Model = (function () {
       IsPII: true,
       IsPHI: false,
       Last_x0020_Update: "2018-11-04T02:10:04Z",
-      LOB: "Customer Care & CRE",
+      LOB: "Department 1",
       LOBName: {
         ID: 7,
-        Title: "Customer Care & CRE"
+        Title: "Department 1"
       },
       LOBNameId: 7,
-      OrderNumber: "123143",
-      ProjectName: "Special Project",
+      OrderNumber: "00001",
+      ProjectName: "Project 1",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
       Remediation_Date_Start: null,
-      SMCWorkOrderNumber: "WO0000004126234",
-      Third_x0020_Party_x0020_Name: "Radius Global Market",
+      SMCWorkOrderNumber: "1111",
+      Third_x0020_Party_x0020_Name: "Vendor 1",
       ThirdPartyName: {
         ID: 1105,
-        Third_x0020_Party_x0020_Name: "Vendor A"
+        Third_x0020_Party_x0020_Name: "Vendor 1"
       },
       Tier: 1,
       TSr_x0020_Status:
         "LOB to ensure the vendor responds to the Assessors request for additional evidence.",
-      OriginalAssessor: "Person 3"
+      OriginalAssessor: "Person 2"
     },
     {
       ActionNeeded: "Do things",
@@ -460,7 +460,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "Person 4",
+      ControlAssessor: "Person 1",
       DataClassification: "Internal",
       DateIQUploaded: "2018-10-02T02:10:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -470,27 +470,27 @@ var TSR_Model = (function () {
       IsPII: true,
       IsPHI: false,
       Last_x0020_Update: "2018-12-04T02:10:04Z",
-      LOB: "Customer Care & CRE",
+      LOB: "Department 1",
       LOBName: {
         ID: 7,
-        Title: "Customer Care & CRE"
+        Title: "Department 1"
       },
       LOBNameId: 7,
-      OrderNumber: "7299462",
-      ProjectName: "Planning Project",
+      OrderNumber: "00002",
+      ProjectName: "Project 2",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
       Remediation_Date_Start: null,
-      SMCWorkOrderNumber: "WO00003981174",
-      Third_x0020_Party_x0020_Name: "Admail West",
+      SMCWorkOrderNumber: "2222",
+      Third_x0020_Party_x0020_Name: "Vendor 2",
       ThirdPartyName: {
         ID: 1105,
-        Third_x0020_Party_x0020_Name: "Vendor B"
+        Third_x0020_Party_x0020_Name: "Vendor 2"
       },
       Tier: 2,
       TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "Person 5"
+      OriginalAssessor: "Person 2"
     },
     {
       ActionNeeded: "Do things",
@@ -512,28 +512,28 @@ var TSR_Model = (function () {
       IsPII: true,
       IsPHI: false,
       Last_x0020_Update: "2019-12-04T02:10:04Z",
-      LOB: "Customer Care & CRE",
+      LOB: "Department 1",
       LOBName: {
         ID: 7,
-        Title: "Customer Care & CRE"
+        Title: "Department 1"
       },
       LOBNameId: 7,
-      OrderNumber: "000000",
-      ProjectName: "Upgrade Project",
+      OrderNumber: "000003",
+      ProjectName: "Project 3",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: null,
       Remediation_Needed: "No",
       Remediation_Date_Start: null,
-      SMCWorkOrderNumber: "WO00059363729",
-      Third_x0020_Party_x0020_Name: "Radius Global Market",
+      SMCWorkOrderNumber: "3333",
+      Third_x0020_Party_x0020_Name: "Vendor 3",
       ThirdPartyName: {
         ID: 287,
-        Third_x0020_Party_x0020_Name: "Vendor C"
+        Third_x0020_Party_x0020_Name: "Vendor 3"
       },
       Tier: 1,
       TSr_x0020_Status:
         "Assessor received SOC report and currently reviewing/mapping security controls",
-      OriginalAssessor: "Person 3"
+      OriginalAssessor: "Person 2"
     },
     {
       ActionNeeded: "Do things",
@@ -555,112 +555,28 @@ var TSR_Model = (function () {
       IsPII: true,
       IsPHI: false,
       Last_x0020_Update: "2018-10-04T02:10:04Z",
-      LOB: "Customer Care & CRE",
+      LOB: "Department 1",
       LOBName: {
         ID: 7,
-        Title: "Customer Care & CRE"
+        Title: "Department 1"
       },
       LOBNameId: 7,
-      OrderNumber: "123143",
-      ProjectName: "End of year Project",
+      OrderNumber: "00004",
+      ProjectName: "Project 4",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
       Remediation_Date_Start: null,
-      SMCWorkOrderNumber: "WO000000012643",
-      Third_x0020_Party_x0020_Name: "Radius Global Market",
+      SMCWorkOrderNumber: "4444",
+      Third_x0020_Party_x0020_Name: "Vendor 4",
       ThirdPartyName: {
         ID: 684,
-        Third_x0020_Party_x0020_Name: "Vendor D"
+        Third_x0020_Party_x0020_Name: "Vendor 4"
       },
       Tier: 3,
       TSr_x0020_Status:
         "LOB to ensure the vendor completes and returns Controls Questionnaire.",
-      OriginalAssessor: "Person 1"
-    },
-    {
-      ActionNeeded: "Do things",
-      AssessorFinalNotes: "these are my notes 1",
-      CommentWeek1: "this is comment for week 1",
-      CommentWeek2: "this is comment for week 2",
-      CommentWeek3: "this is comment for week 3",
-      CommentWeek4: "this is comment for week 4",
-      CommentWeek5: "this is comment for week 5",
-      CommentWeek6: "this is comment for week 6",
-      CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "Person 1",
-      DataClassification: "Internal",
-      DateIQUploaded: "2018-10-02T02:10:04Z",
-      DateComplete: "2018-12-07T02:10:04Z",
-      ID: 5,
-      Id: 5,
-      IsCEUD: false,
-      IsPII: true,
-      IsPHI: false,
-      Last_x0020_Update: "2018-11-04T02:10:04Z",
-      LOB: "Customer Care & CRE",
-      LOBName: {
-        ID: 10,
-        Title: "Finance & Risk"
-      },
-      LOBNameId: 10,
-      OrderNumber: "123143",
-      ProjectName: "Planning Project",
-      Remediation_Notes: "These are my remediation Notes",
-      Remediation_Status: "Remediation Complete",
-      Remediation_Needed: "Yes",
-      Remediation_Date_Start: null,
-      SMCWorkOrderNumber: "WO000000012643",
-      Third_x0020_Party_x0020_Name: "Radius Global Market",
-      ThirdPartyName: {
-        ID: 287,
-        Third_x0020_Party_x0020_Name: "Vendor E"
-      },
-      Tier: 3,
-      TSr_x0020_Status: "LOB to ensure vendor mitigates deficient controls.",
-      OriginalAssessor: "Person 1"
-    },
-    {
-      ActionNeeded: "Do things",
-      AssessorFinalNotes: "these are my notes 1",
-      CommentWeek1: "this is comment for week 1",
-      CommentWeek2: "this is comment for week 2",
-      CommentWeek3: "this is comment for week 3",
-      CommentWeek4: "this is comment for week 4",
-      CommentWeek5: "this is comment for week 5",
-      CommentWeek6: "this is comment for week 6",
-      CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "Person 3",
-      DataClassification: "Internal",
-      DateIQUploaded: "2019-10-02T02:10:04Z",
-      DateComplete: "2018-12-07T02:10:04Z",
-      ID: 6,
-      Id: 6,
-      IsCEUD: false,
-      IsPII: true,
-      IsPHI: false,
-      Last_x0020_Update: "2018-11-04T02:10:04Z",
-      LOB: "Customer Care & CRE",
-      LOBName: {
-        ID: 10,
-        Title: "Finance & Risk"
-      },
-      LOBNameId: 10,
-      OrderNumber: "123143",
-      ProjectName: "Planning Project",
-      Remediation_Notes: "These are my remediation Notes",
-      Remediation_Status: "Remediation Complete",
-      Remediation_Needed: "Yes",
-      Remediation_Date_Start: null,
-      SMCWorkOrderNumber: "WO000000012643",
-      Third_x0020_Party_x0020_Name: "Radius Global Market",
-      ThirdPartyName: {
-        ID: 1103,
-        Third_x0020_Party_x0020_Name: "Vendor F"
-      },
-      Tier: 2,
-      TSr_x0020_Status: "On Hold",
-      OriginalAssessor: "Person 1"
+      OriginalAssessor: "Person 2"
     },
     {
       ActionNeeded: "Do things",
@@ -674,6 +590,90 @@ var TSR_Model = (function () {
       CommentWeek7: "this is comment for week 7",
       ControlAssessor: "Person 2",
       DataClassification: "Internal",
+      DateIQUploaded: "2018-10-02T02:10:04Z",
+      DateComplete: "2018-12-07T02:10:04Z",
+      ID: 5,
+      Id: 5,
+      IsCEUD: false,
+      IsPII: true,
+      IsPHI: false,
+      Last_x0020_Update: "2018-11-04T02:10:04Z",
+      LOB: "Department 1",
+      LOBName: {
+        ID: 10,
+        Title: "Department 2"
+      },
+      LOBNameId: 10,
+      OrderNumber: "00005",
+      ProjectName: "Project 5",
+      Remediation_Notes: "These are my remediation Notes",
+      Remediation_Status: "Remediation Complete",
+      Remediation_Needed: "Yes",
+      Remediation_Date_Start: null,
+      SMCWorkOrderNumber: "5555",
+      Third_x0020_Party_x0020_Name: "Vendor 5",
+      ThirdPartyName: {
+        ID: 287,
+        Third_x0020_Party_x0020_Name: "Vendor 5"
+      },
+      Tier: 3,
+      TSr_x0020_Status: "LOB to ensure vendor mitigates deficient controls.",
+      OriginalAssessor: "Person 2"
+    },
+    {
+      ActionNeeded: "Do things",
+      AssessorFinalNotes: "these are my notes 1",
+      CommentWeek1: "this is comment for week 1",
+      CommentWeek2: "this is comment for week 2",
+      CommentWeek3: "this is comment for week 3",
+      CommentWeek4: "this is comment for week 4",
+      CommentWeek5: "this is comment for week 5",
+      CommentWeek6: "this is comment for week 6",
+      CommentWeek7: "this is comment for week 7",
+      ControlAssessor: "Person 1",
+      DataClassification: "Internal",
+      DateIQUploaded: "2019-10-02T02:10:04Z",
+      DateComplete: "2018-12-07T02:10:04Z",
+      ID: 6,
+      Id: 6,
+      IsCEUD: false,
+      IsPII: true,
+      IsPHI: false,
+      Last_x0020_Update: "2018-11-04T02:10:04Z",
+      LOB: "Department 1",
+      LOBName: {
+        ID: 10,
+        Title: "Department 2"
+      },
+      LOBNameId: 10,
+      OrderNumber: "00006",
+      ProjectName: "Project 6",
+      Remediation_Notes: "These are my remediation Notes",
+      Remediation_Status: "Remediation Complete",
+      Remediation_Needed: "Yes",
+      Remediation_Date_Start: null,
+      SMCWorkOrderNumber: "6666",
+      Third_x0020_Party_x0020_Name: "Vendor 6",
+      ThirdPartyName: {
+        ID: 1103,
+        Third_x0020_Party_x0020_Name: "Vendor 6"
+      },
+      Tier: 2,
+      TSr_x0020_Status: "On Hold",
+      OriginalAssessor: "Person 4"
+    },
+    {
+      ActionNeeded: "Do things",
+      AssessorFinalNotes: "these are my notes 1",
+      CommentWeek1: "this is comment for week 1",
+      CommentWeek2: "this is comment for week 2",
+      CommentWeek3: "this is comment for week 3",
+      CommentWeek4: "this is comment for week 4",
+      CommentWeek5: "this is comment for week 5",
+      CommentWeek6: "this is comment for week 6",
+      CommentWeek7: "this is comment for week 7",
+      ControlAssessor: "Person 3",
+      DataClassification: "Internal",
       DateIQUploaded: "2019-09-02T02:10:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
       ID: 7,
@@ -682,27 +682,27 @@ var TSR_Model = (function () {
       IsPII: true,
       IsPHI: false,
       Last_x0020_Update: "2018-11-04T02:10:04Z",
-      LOB: "Customer Care & CRE",
+      LOB: "Department 1",
       LOBName: {
         ID: 10,
-        Title: "Finance & Risk"
+        Title: "Department 2"
       },
       LOBNameId: 10,
-      OrderNumber: "123143",
-      ProjectName: "Another Project",
+      OrderNumber: "000007",
+      ProjectName: "Project 7",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
       Remediation_Date_Start: null,
-      SMCWorkOrderNumber: "WO000000012643",
-      Third_x0020_Party_x0020_Name: "Radius Global Market",
+      SMCWorkOrderNumber: "7777",
+      Third_x0020_Party_x0020_Name: "Vendor 7",
       ThirdPartyName: {
         ID: 1099,
-        Third_x0020_Party_x0020_Name: "Vendor G"
+        Third_x0020_Party_x0020_Name: "Vendor 7"
       },
       Tier: 1,
       TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "Person 2"
+      OriginalAssessor: "Person 1"
     },
     {
       ActionNeeded: "Do things",
@@ -724,25 +724,109 @@ var TSR_Model = (function () {
       IsPII: true,
       IsPHI: false,
       Last_x0020_Update: "2018-11-04T02:10:04Z",
-      LOB: "Customer Care & CRE",
+      LOB: "Department 1",
       LOBName: {
         ID: 10,
-        Title: "Finance & Risk"
+        Title: "Department 2"
       },
       LOBNameId: 10,
-      OrderNumber: "123143",
-      ProjectName: "Upgrade Project",
+      OrderNumber: "000008",
+      ProjectName: "Project 8",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
       Remediation_Date_Start: null,
-      SMCWorkOrderNumber: "WO000000012643",
-      Third_x0020_Party_x0020_Name: "Radius Global Market",
+      SMCWorkOrderNumber: "8888",
+      Third_x0020_Party_x0020_Name: "Vendor 8",
       ThirdPartyName: {
         ID: 1088,
-        Third_x0020_Party_x0020_Name: "Vendor H"
+        Third_x0020_Party_x0020_Name: "Vendor 8"
       },
       Tier: 2,
+      TSr_x0020_Status: "Review Complete",
+      OriginalAssessor: "Person 4"
+    },
+    {
+      ActionNeeded: "Do things",
+      AssessorFinalNotes: "these are my notes 1",
+      CommentWeek1: "this is comment for week 1",
+      CommentWeek2: "this is comment for week 2",
+      CommentWeek3: "this is comment for week 3",
+      CommentWeek4: "this is comment for week 4",
+      CommentWeek5: "this is comment for week 5",
+      CommentWeek6: "this is comment for week 6",
+      CommentWeek7: "this is comment for week 7",
+      ControlAssessor: "Person 3",
+      DataClassification: "Internal",
+      DateIQUploaded: "2019-10-02T02:10:04Z",
+      DateComplete: "2018-12-07T02:10:04Z",
+      ID: 9,
+      Id: 9,
+      IsCEUD: false,
+      IsPII: true,
+      IsPHI: false,
+      Last_x0020_Update: "2018-11-04T02:10:04Z",
+      LOB: "Department 1",
+      LOBName: {
+        ID: 10,
+        Title: "Department 2"
+      },
+      LOBNameId: 10,
+      OrderNumber: "00009",
+      ProjectName: "Project 9",
+      Remediation_Notes: "These are my remediation Notes",
+      Remediation_Status: "Remediation Complete",
+      Remediation_Needed: "Yes",
+      Remediation_Date_Start: null,
+      SMCWorkOrderNumber: "9999",
+      Third_x0020_Party_x0020_Name: "Vendor 9",
+      ThirdPartyName: {
+        ID: 215,
+        Third_x0020_Party_x0020_Name: "Vendor 9"
+      },
+      Tier: 1,
+      TSr_x0020_Status: "Review Complete",
+      OriginalAssessor: "Person 2"
+    },
+    {
+      ActionNeeded: "Do things",
+      AssessorFinalNotes: "these are my notes 1",
+      CommentWeek1: "this is comment for week 1",
+      CommentWeek2: "this is comment for week 2",
+      CommentWeek3: "this is comment for week 3",
+      CommentWeek4: "this is comment for week 4",
+      CommentWeek5: "this is comment for week 5",
+      CommentWeek6: "this is comment for week 6",
+      CommentWeek7: "this is comment for week 7",
+      ControlAssessor: "Person 5",
+      DataClassification: "Internal",
+      DateIQUploaded: "2017-05-02T02:50:04Z",
+      DateComplete: "2018-12-07T02:10:04Z",
+      ID: 10,
+      Id: 10,
+      IsCEUD: false,
+      IsPII: true,
+      IsPHI: false,
+      Last_x0020_Update: "2018-11-04T02:10:04Z",
+      LOB: "Department 1",
+      LOBName: {
+        ID: 17,
+        Title: "Department 3"
+      },
+      LOBNameId: 10,
+      OrderNumber: "000010",
+      ProjectName: "Project 10",
+      Remediation_Notes: "These are my remediation Notes",
+      Remediation_Status: "Remediation Complete",
+      Remediation_Needed: "Yes",
+      Remediation_Date_Start: null,
+      SMCWorkOrderNumber: "1212",
+      Third_x0020_Party_x0020_Name: "Vendor 10",
+      ThirdPartyName: {
+        ID: 1089,
+        Third_x0020_Party_x0020_Name: "Vendor 10"
+      },
+      Tier: 3,
       TSr_x0020_Status: "Review Complete",
       OriginalAssessor: "Person 1"
     },
@@ -758,90 +842,6 @@ var TSR_Model = (function () {
       CommentWeek7: "this is comment for week 7",
       ControlAssessor: "Person 5",
       DataClassification: "Internal",
-      DateIQUploaded: "2019-10-02T02:10:04Z",
-      DateComplete: "2018-12-07T02:10:04Z",
-      ID: 9,
-      Id: 9,
-      IsCEUD: false,
-      IsPII: true,
-      IsPHI: false,
-      Last_x0020_Update: "2018-11-04T02:10:04Z",
-      LOB: "Customer Care & CRE",
-      LOBName: {
-        ID: 10,
-        Title: "Finance & Risk"
-      },
-      LOBNameId: 10,
-      OrderNumber: "123143",
-      ProjectName: "End of year Project",
-      Remediation_Notes: "These are my remediation Notes",
-      Remediation_Status: "Remediation Complete",
-      Remediation_Needed: "Yes",
-      Remediation_Date_Start: null,
-      SMCWorkOrderNumber: "WO000000012643",
-      Third_x0020_Party_x0020_Name: "Radius Global Market",
-      ThirdPartyName: {
-        ID: 215,
-        Third_x0020_Party_x0020_Name: "Vendor I"
-      },
-      Tier: 1,
-      TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "Person 4"
-    },
-    {
-      ActionNeeded: "Do things",
-      AssessorFinalNotes: "these are my notes 1",
-      CommentWeek1: "this is comment for week 1",
-      CommentWeek2: "this is comment for week 2",
-      CommentWeek3: "this is comment for week 3",
-      CommentWeek4: "this is comment for week 4",
-      CommentWeek5: "this is comment for week 5",
-      CommentWeek6: "this is comment for week 6",
-      CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "Person 2",
-      DataClassification: "Internal",
-      DateIQUploaded: "2017-05-02T02:50:04Z",
-      DateComplete: "2018-12-07T02:10:04Z",
-      ID: 10,
-      Id: 10,
-      IsCEUD: false,
-      IsPII: true,
-      IsPHI: false,
-      Last_x0020_Update: "2018-11-04T02:10:04Z",
-      LOB: "Customer Care & CRE",
-      LOBName: {
-        ID: 17,
-        Title: "Safety Health and Enterprise"
-      },
-      LOBNameId: 10,
-      OrderNumber: "123143",
-      ProjectName: "Start of Year Project",
-      Remediation_Notes: "These are my remediation Notes",
-      Remediation_Status: "Remediation Complete",
-      Remediation_Needed: "Yes",
-      Remediation_Date_Start: null,
-      SMCWorkOrderNumber: "WO00000032423643",
-      Third_x0020_Party_x0020_Name: "Radius Global Market",
-      ThirdPartyName: {
-        ID: 1089,
-        Third_x0020_Party_x0020_Name: "Vendor J"
-      },
-      Tier: 3,
-      TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "Person 5"
-    },
-    {
-      ActionNeeded: "Do things",
-      AssessorFinalNotes: "these are my notes 1",
-      CommentWeek1: "this is comment for week 1",
-      CommentWeek2: "this is comment for week 2",
-      CommentWeek3: "this is comment for week 3",
-      CommentWeek4: "this is comment for week 4",
-      CommentWeek5: "this is comment for week 5",
-      CommentWeek6: "this is comment for week 6",
-      CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "Person 2",
-      DataClassification: "Internal",
       DateIQUploaded: "2018-02-02T02:50:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
       ID: 11,
@@ -850,23 +850,65 @@ var TSR_Model = (function () {
       IsPII: true,
       IsPHI: false,
       Last_x0020_Update: "2018-11-04T02:10:04Z",
-      LOB: "Customer Care & CRE",
+      LOB: "Department 1",
       LOBName: {
         ID: 17,
-        Title: "Safety Health and Enterprise"
+        Title: "Department 3"
       },
       LOBNameId: 10,
-      OrderNumber: "123143",
-      ProjectName: "Fake Project",
+      OrderNumber: "000011",
+      ProjectName: "Project 11",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
       Remediation_Date_Start: null,
-      SMCWorkOrderNumber: "WO00000032423643",
-      Third_x0020_Party_x0020_Name: "Radius Global Market",
+      SMCWorkOrderNumber: "2323",
+      Third_x0020_Party_x0020_Name: "Vendor 11",
       ThirdPartyName: {
         ID: 1079,
-        Third_x0020_Party_x0020_Name: "Vendor K"
+        Third_x0020_Party_x0020_Name: "Vendor 11"
+      },
+      Tier: 3,
+      TSr_x0020_Status: "Review Complete",
+      OriginalAssessor: "Person 1"
+    },
+    {
+      ActionNeeded: "Do things",
+      AssessorFinalNotes: "these are my notes 1",
+      CommentWeek1: "this is comment for week 1",
+      CommentWeek2: "this is comment for week 2",
+      CommentWeek3: "this is comment for week 3",
+      CommentWeek4: "this is comment for week 4",
+      CommentWeek5: "this is comment for week 5",
+      CommentWeek6: "this is comment for week 6",
+      CommentWeek7: "this is comment for week 7",
+      ControlAssessor: "Person 3",
+      DataClassification: "Internal",
+      DateIQUploaded: "2018-02-02T02:50:04Z",
+      DateComplete: "2018-12-07T02:10:04Z",
+      ID: 12,
+      Id: 12,
+      IsCEUD: false,
+      IsPII: true,
+      IsPHI: false,
+      Last_x0020_Update: "2018-11-04T02:10:04Z",
+      LOB: "Department 1",
+      LOBName: {
+        ID: 17,
+        Title: "Department 3"
+      },
+      LOBNameId: 10,
+      OrderNumber: "000012",
+      ProjectName: "Project 12",
+      Remediation_Notes: "These are my remediation Notes",
+      Remediation_Status: "Remediation Complete",
+      Remediation_Needed: "Yes",
+      Remediation_Date_Start: null,
+      SMCWorkOrderNumber: "3434",
+      Third_x0020_Party_x0020_Name: "Vendor 12",
+      ThirdPartyName: {
+        ID: 1069,
+        Third_x0020_Party_x0020_Name: "Vendor 12"
       },
       Tier: 3,
       TSr_x0020_Status: "Review Complete",
@@ -882,49 +924,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "Person 4",
-      DataClassification: "Internal",
-      DateIQUploaded: "2018-02-02T02:50:04Z",
-      DateComplete: "2018-12-07T02:10:04Z",
-      ID: 12,
-      Id: 12,
-      IsCEUD: false,
-      IsPII: true,
-      IsPHI: false,
-      Last_x0020_Update: "2018-11-04T02:10:04Z",
-      LOB: "Customer Care & CRE",
-      LOBName: {
-        ID: 17,
-        Title: "Safety Health and Enterprise"
-      },
-      LOBNameId: 10,
-      OrderNumber: "123143",
-      ProjectName: "Project 23452",
-      Remediation_Notes: "These are my remediation Notes",
-      Remediation_Status: "Remediation Complete",
-      Remediation_Needed: "Yes",
-      Remediation_Date_Start: null,
-      SMCWorkOrderNumber: "WO0004299993",
-      Third_x0020_Party_x0020_Name: "Radius Global Market",
-      ThirdPartyName: {
-        ID: 1069,
-        Third_x0020_Party_x0020_Name: "Vendor L"
-      },
-      Tier: 3,
-      TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "Person 3"
-    },
-    {
-      ActionNeeded: "Do things",
-      AssessorFinalNotes: "these are my notes 1",
-      CommentWeek1: "this is comment for week 1",
-      CommentWeek2: "this is comment for week 2",
-      CommentWeek3: "this is comment for week 3",
-      CommentWeek4: "this is comment for week 4",
-      CommentWeek5: "this is comment for week 5",
-      CommentWeek6: "this is comment for week 6",
-      CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "Person 1",
+      ControlAssessor: "Person 3",
       DataClassification: "Internal",
       DateIQUploaded: "2018-02-02T02:50:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -934,27 +934,27 @@ var TSR_Model = (function () {
       IsPII: true,
       IsPHI: false,
       Last_x0020_Update: "2019-01-04T02:10:04Z",
-      LOB: "Customer Care & CRE",
+      LOB: "Department 1",
       LOBName: {
         ID: 18,
-        Title: "Strategy & Policy"
+        Title: "Department 4"
       },
       LOBNameId: 10,
-      OrderNumber: "123143",
-      ProjectName: "Project 22222",
+      OrderNumber: "000013",
+      ProjectName: "Project 13",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
       Remediation_Date_Start: null,
-      SMCWorkOrderNumber: "WO0004299993",
-      Third_x0020_Party_x0020_Name: "Radius Global Market",
+      SMCWorkOrderNumber: "4545",
+      Third_x0020_Party_x0020_Name: "Vendor 13",
       ThirdPartyName: {
         ID: 1059,
-        Third_x0020_Party_x0020_Name: "Vendor M"
+        Third_x0020_Party_x0020_Name: "Vendor 13"
       },
       Tier: 4,
       TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "Person 4"
+      OriginalAssessor: "Person 2"
     },
     {
       ActionNeeded: "Do things",
@@ -976,27 +976,27 @@ var TSR_Model = (function () {
       IsPII: true,
       IsPHI: false,
       Last_x0020_Update: "2019-01-06T02:10:04Z",
-      LOB: "Customer Care & CRE",
+      LOB: "Department 1",
       LOBName: {
         ID: 18,
-        Title: "Strategy & Policy"
+        Title: "Department 4"
       },
       LOBNameId: 10,
-      OrderNumber: "123143",
-      ProjectName: "Project 333333",
+      OrderNumber: "000014",
+      ProjectName: "Project 14",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
       Remediation_Date_Start: null,
-      SMCWorkOrderNumber: "WO0004299993",
-      Third_x0020_Party_x0020_Name: "Radius Global Market",
+      SMCWorkOrderNumber: "5656",
+      Third_x0020_Party_x0020_Name: "Vendor 14",
       ThirdPartyName: {
         ID: 1049,
-        Third_x0020_Party_x0020_Name: "Vendor N"
+        Third_x0020_Party_x0020_Name: "Vendor 14"
       },
       Tier: 4,
       TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "Person 3"
+      OriginalAssessor: "Person 2"
     },
     {
       ActionNeeded: "Do things",
@@ -1008,7 +1008,7 @@ var TSR_Model = (function () {
       CommentWeek5: "this is comment for week 5",
       CommentWeek6: "this is comment for week 6",
       CommentWeek7: "this is comment for week 7",
-      ControlAssessor: "Person 5",
+      ControlAssessor: "Person 3",
       DataClassification: "Internal",
       DateIQUploaded: "2019-01-01T02:50:04Z",
       DateComplete: "2018-12-07T02:10:04Z",
@@ -1018,27 +1018,27 @@ var TSR_Model = (function () {
       IsPII: true,
       IsPHI: false,
       Last_x0020_Update: "2019-01-04T02:10:04Z",
-      LOB: "Customer Care & CRE",
+      LOB: "Department 1",
       LOBName: {
         ID: 18,
-        Title: "Strategy & Policy"
+        Title: "Department 4"
       },
       LOBNameId: 10,
-      OrderNumber: "123143",
-      ProjectName: "Project 23232323",
+      OrderNumber: "000015",
+      ProjectName: "Project 15",
       Remediation_Notes: "These are my remediation Notes",
       Remediation_Status: "Remediation Complete",
       Remediation_Needed: "Yes",
       Remediation_Date_Start: null,
-      SMCWorkOrderNumber: "WO0004299993",
-      Third_x0020_Party_x0020_Name: "Radius Global Market",
+      SMCWorkOrderNumber: "7878",
+      Third_x0020_Party_x0020_Name: "Vendor 15",
       ThirdPartyName: {
         ID: 1039,
-        Third_x0020_Party_x0020_Name: "Vendor O"
+        Third_x0020_Party_x0020_Name: "Vendor 15"
       },
       Tier: 4,
       TSr_x0020_Status: "Review Complete",
-      OriginalAssessor: "Person 1"
+      OriginalAssessor: "Person 2"
     }
   ];
 
@@ -1047,81 +1047,104 @@ var TSR_Model = (function () {
       ID: 18,
       Id: 18,
       ReOrgOut: false,
-      Title: "Strategy & Policy"
+      Title: "Department 4"
     },
     {
       ID: 17,
       Id: 17,
       ReOrgOut: false,
-      Title: "Safety Health and Enterprise"
+      Title: "Department 3"
     },
     {
       ID: 16,
       Id: 16,
       ReOrgOut: false,
-      Title: "Pres/ CEO /COO"
+      Title: "Department 5"
     },
     {
       ID: 15,
       Id: 15,
       ReOrgOut: false,
-      Title: "Information Technology & Supply Chain"
+      Title: "Department 6"
     },
     {
       ID: 14,
       Id: 14,
       ReOrgOut: false,
-      Title: "Human Resources"
+      Title: "Department 7"
     },
     {
       ID: 13,
       Id: 13,
       ReOrgOut: false,
-      Title: "Generation"
+      Title: "Department 8"
     },
     {
       ID: 12,
       Id: 12,
       ReOrgOut: false,
-      Title: "General Counsel/Law"
+      Title: "Department 9"
     },
     {
       ID: 11,
       Id: 11,
       ReOrgOut: false,
-      Title: "Gas Operations"
+      Title: "Department 10"
     },
     {
       ID: 10,
       Id: 10,
       ReOrgOut: false,
-      Title: "Finance & Risk"
+      Title: "Department 2"
     },
     {
       ID: 9,
       Id: 9,
       ReOrgOut: false,
-      Title: "Ethics & Compliance"
+      Title: "Department 11"
     },
     {
       ID: 8,
       Id: 8,
       ReOrgOut: false,
-      Title: "Electric Operations"
+      Title: "Department 12"
     },
     {
       ID: 7,
       Id: 7,
       ReOrgOut: false,
-      Title: "Customer Care & CRE"
+      Title: "Department 1"
     },
     {
       ID: 1,
       Id: 1,
       ReOrgOut: false,
-      Title: "Corporate Services"
+      Title: "Department 13"
     }
   ];
+
+  var tblUsers = [
+    {
+      Active: "Yes",
+      Assessment: "PERSON 1"
+    },
+    {
+      Active: "Yes",
+      Assessment: "PERSON 2"
+    },
+    {
+      Active: "Yes",
+      Assessment: "PERSON 3"
+    },
+    {
+      Active: "Yes",
+      Assessment: "PERSON 4"
+    },
+    {
+      Active: "Yes",
+      Assessment: "PERSON 5"
+    }
+  ]
 
   var tblIQInformation = [
     {
@@ -1266,13 +1289,13 @@ var TSR_Model = (function () {
           },
           success: function (data) {
             var myStr = data.d.LoginName;
-            console.log(data)
+            //console.log(data)
             if (myStr.slice(-5) === "admin") {
               callback(
                 myStr.slice(myStr.length - 9, myStr.length - 5).toUpperCase()
               );
             } else {
-              console.log(myStr.slice(-4).toUpperCase())
+              //console.log(myStr.slice(-4).toUpperCase())
               callback(myStr.slice(-4).toUpperCase());
             }
           },
@@ -1562,6 +1585,50 @@ var TSR_Model = (function () {
       } else {
         setTimeout(function () {
           callback(tableData);
+        }, 500);
+      }
+    },
+    getAllDepartments: function (usingSP, callback) {
+      if (usingSP) {
+        var requestUri =
+          _spPageContextInfo.webAbsoluteUrl +
+          "/_api/web/lists/getbytitle('tblLOB')/items?$select=*";
+        $.ajax({
+          url: requestUri,
+          type: "GET",
+          headers: {
+            accept: "application/json; odata=verbose"
+          },
+          success: function (data) {
+            callback(data.d.results);
+          },
+          error: genericError
+        });
+      } else {
+        setTimeout(function () {
+          callback(tblLOB);
+        }, 500);
+      }
+    },
+    getAllUsers: function (usingSP, callback) {
+      if (usingSP) {
+        var requestUri =
+          _spPageContextInfo.webAbsoluteUrl +
+          "/_api/web/lists/getbytitle('tblAssessor')/items?$select=*";
+        $.ajax({
+          url: requestUri,
+          type: "GET",
+          headers: {
+            accept: "application/json; odata=verbose"
+          },
+          success: function (data) {
+            callback(data.d.results);
+          },
+          error: genericError
+        });
+      } else {
+        setTimeout(function () {
+          callback(tblUsers);
         }, 500);
       }
     }
@@ -3923,6 +3990,227 @@ var TSR_App = (function (model, view) {
 
   }
 
+  function formatSubmissionData2(data, year) {
+
+    /*
+    var LOBs = [
+      { name: "Corporate Services", data: 0 },
+      { name: "Customer Care & CRE", data: 0 },
+      { name: "Electric Operations", data: 0 },
+      { name: "Ethics & Compliance", data: 0 },
+      { name: "Finance & Risk", data: 0 },
+      { name: "Gas Operations", data: 0 },
+      { name: "General Counsel/Law", data: 0 },
+      { name: "Generation", data: 0 },
+      { name: "Human Resources", data: 0 },
+      { name: "Information Technology & Supply Chain", data: 0 },
+      { name: "Pres/ CEO /COO", data: 0 },
+      { name: "Safety Health and Enterprise", data: 0 },
+      { name: "Strategy & Policy", data: 0 }
+    ];
+    */
+
+    var LOBs = _.orderBy(_.filter(_.map(_.groupBy(data, function (d) { return d.LOBName.Title }), function (val, index, array) { return { name: index, data: 0 } }), function (o) { return o.name !== "Energy Supply" }), ['name'], ['asc'])
+
+    var Months = [
+      { x: "January", y: 0 },
+      { x: "February", y: 0 },
+      { x: "March", y: 0 },
+      { x: "April", y: 0 },
+      { x: "May", y: 0 },
+      { x: "June", y: 0 },
+      { x: "July", y: 0 },
+      { x: "August", y: 0 },
+      { x: "September", y: 0 },
+      { x: "October", y: 0 },
+      { x: "November", y: 0 },
+      { x: "December", y: 0 }
+    ];
+
+    var allData = _.groupBy(data, function (d) {
+      var newDate = new Date(d.DateIQUploaded);
+      return newDate.getFullYear()
+    })
+
+    var myData = {
+      "byTier": [],
+      "byLOBTime": [],
+      "byMonth": [],
+      "byLOB": [],
+      "total": null
+    }
+
+    myData.total = allData[year].length
+
+    myData.byTier = _.groupBy(allData[year], function (d) { return d.Tier })
+    delete myData.byTier['null']
+    myData.byTier = _.mapKeys(myData.byTier, function (val, key) { return "Tier " + key; })
+
+    if (!_.has(myData.byTier, "Tier 1")) {
+      myData.byTier["Tier 1"] = []
+      console.log("No Tier 1s found")
+    }
+    if (!_.has(myData.byTier, "Tier 2")) {
+      myData.byTier["Tier 2"] = []
+    }
+    if (!_.has(myData.byTier, "Tier 3")) {
+      myData.byTier["Tier 3"] = []
+    }
+    if (!_.has(myData.byTier, "Tier 4")) {
+      myData.byTier["Tier 4"] = []
+    }
+
+    myData.byTier = _.mapValues(myData.byTier, function (val, index, array) {
+
+      return {
+        total: val.length,
+        items: _.orderBy(_.unionWith(_.map(_.mapValues(_.groupBy(val, function (d) { return d.LOBName.Title }), 'length'), function (val, index, array) { return { name: index, data: val } }), LOBs, function (n1, n2) { return n1.name === n2.name }), ["name"], ['asc'])
+      }
+    })
+
+
+    myData.byLOB = _.groupBy(allData[year], function (d) { return d.LOBName.Title })
+    myData.byLOB = _.map(myData.byLOB, function (val, index, array) { return { name: index, data: val.length } })
+    myData.byLOB = _.unionWith(myData.byLOB, LOBs, function (n1, n2) { return n1.name === n2.name })
+
+    /*
+    myData.byLOB = _.map(myData.byLOB, function (val, index) {
+      if (val.name === "Information Technology & Supply Chain") val.name = "IT & Supply Chain"
+      else if (val.name === "Safety Health and Enterprise") val.name = "Safety & Health"
+
+      return val
+    })
+    */
+
+
+    myData.byLOBTime = _.groupBy(allData[year], function (d) { return d.LOBName.Title })
+    myData.byLOBTime = _.mapValues(myData.byLOBTime, function (val, index, array) {
+      return _.orderBy(_.unionWith(_.map(_.mapValues(_.groupBy(val, function (d) {
+        var newDate = new Date(d.DateIQUploaded)
+        //return newDate.toISOString()
+        return newDate.getMonthName()
+      }), 'length'), function (val, index, array) { return { x: index, y: val } }), Months, function (n1, n2) { return n1.x === n2.x }), function (m) { return getMonthOrder(m.x) }, ['asc']).sort(function compare(a, b) {
+        var dateA = new Date(a.x);
+        var dateB = new Date(b.x);
+        return dateA - dateB;
+      })
+    })
+
+    myData.byMonth = _.groupBy(allData[year], function (d) {
+      var newDate = new Date(d.DateIQUploaded)
+      return newDate.getMonthName();
+    })
+    myData.byMonth = _.mapValues(myData.byMonth, "length");
+    myData.byMonth = _.map(myData.byMonth, function (val, index, array) { return { x: index, y: val } })
+    myData.byMonth = _.unionWith(myData.byMonth, Months, function (n1, n2) { return n1.x === n2.x })
+    myData.byMonth = _.orderBy(myData.byMonth, function (m) { return getMonthOrder(m.x) }, ['asc'])
+
+
+    /*
+    myData.byMonth = _.groupBy(allData[year], function (d) { return d.LOBName.Title })
+    myData.byMonth = _.mapValues(myData.byMonth, function (val, index, array) {
+      return _.orderBy(_.unionWith(_.map(_.mapValues(_.groupBy(val, function (d) {
+        var newDate = new Date(d.DateIQUploaded)
+        return newDate.getMonthName()
+      }), 'length'), function (val, index, array) { return { x: index, y: val } }), Months, function (n1, n2) { return n1.name === n2.name }), function (m) { return getMonthOrder(m.x) }, ['asc']).sort(function compare(a, b) {
+        var dateA = new Date(a.x);
+        var dateB = new Date(b.x);
+        return dateA - dateB;
+      })
+    })
+
+    */
+
+    /*
+    myData.byMonth = _.groupBy(allData[year], function (d) {
+      var newDate = new Date(d.DateIQUploaded)
+      return newDate.getMonthName();
+    })
+    myData.byMonth = _.mapValues(myData.byMonth, "length")
+    myData.byMonth = _.map(myData.byMonth, function (val, index, array) { return { name: index, data: val } })
+    myData.byMonth = _.unionWith(myData.byMonth, Months, function (n1, n2) { return n1.name === n2.name })
+    myData.byMonth = _.orderBy(myData.byMonth, function (m) { return getMonthOrder(m.name) }, ['asc'])
+    */
+
+    /*
+    myData.byLOBTime = _.groupBy(myData.byLOBTime, function (d) {
+      var newDate = new Date(d.DateIQUploaded)
+      return newDate.toLocaleDateString()
+    })
+    */
+
+
+
+
+    /*
+    var Active = {
+      total: dataActive.length
+    }
+
+    dataActive = _.groupBy(dataActive, function (d) { return d.Tier })
+    dataActive = _.mapKeys(dataActive, function (val, key) { return "Tier " + key; })
+    dataActive = _.mapValues(dataActive, function (val, index, array) {
+      return {
+        total: val.length,
+        items: _.orderBy(_.unionWith(_.map(_.mapValues(_.groupBy(val, function (d) { return d.LOBName.Title }), 'length'), function (val, index, array) { return { name: index, data: val } }), LOBs, function (n1, n2) { return n1.name === n2.name }), ["name"], ['asc'])
+      }
+    })
+
+    Active.Data = dataActive;
+    */
+
+
+
+
+    /*    
+      myData.total = allData[year].length
+  
+      myData.byTier = _.groupBy(allData[year], function (d) { return d.Tier })
+      myData.byTierHighLOB = _.cloneDeep(myData.byTier);
+      myData.byTier = _.mapKeys(myData.byTier, function (val, key) { return "Tier " + key; })
+      myData.byTier = _.mapValues(myData.byTier, "length")
+      myData.byTier = _.map(myData.byTier, function (val, index, array) { return { name: index, data: val } })
+  
+  
+      myData.byMonth = _.groupBy(allData[year], function (d) {
+        var newDate = new Date(d.DateIQUploaded)
+        return newDate.getMonthName();
+      })
+      myData.byMonth = _.mapValues(myData.byMonth, "length")
+      myData.byMonth = _.map(myData.byMonth, function (val, index, array) { return { name: index, data: val } })
+      myData.byMonth = _.unionWith(myData.byMonth, Months, function (n1, n2) { return n1.name === n2.name })
+      myData.byMonth = _.orderBy(myData.byMonth, function (m) { return getMonthOrder(m.name) }, ['asc'])
+  
+  
+      myData.byLOB = _.groupBy(allData[year], function (d) { return d.LOBName.Title })
+      myData.byLOB = _.mapValues(myData.byLOB, "length")
+      myData.byLOB = _.map(myData.byLOB, function (val, index, array) { return { name: index, data: val } })
+      myData.byLOB = _.unionWith(myData.byLOB, LOBs, function (n1, n2) { return n1.name === n2.name })
+      myData.byLOB = _.map(myData.byLOB, function (val, index) {
+        if (val.name === "Information Technology & Supply Chain") val.name = "IT & Supply Chain"
+        else if (val.name === "Safety Health and Enterprise") val.name = "Safety & Health"
+  
+        return val
+      })
+      myData.byLOB = _.orderBy(myData.byLOB, ["name"], ['asc'])
+  
+      myData.byTierHighLOB = _.groupBy(myData.byTierHighLOB[1], function (d) { return d.LOBName.Title });
+      myData.byTierHighLOB = _.mapValues(myData.byTierHighLOB, "length")
+      myData.byTierHighLOB = _.map(myData.byTierHighLOB, function (val, index, array) { return { name: index, data: val } })
+      myData.byTierHighLOB = _.unionWith(myData.byTierHighLOB, LOBs, function (n1, n2) { return n1.name === n2.name })
+      myData.byTierHighLOB = _.map(myData.byTierHighLOB, function (val, index) {
+        if (val.name === "Information Technology & Supply Chain") val.name = "IT & Supply Chain"
+        else if (val.name === "Safety Health and Enterprise") val.name = "Safety & Health"
+  
+        return val
+      })
+      myData.byTierHighLOB = _.orderBy(myData.byTierHighLOB, ["name"], ['asc'])
+  
+      */
+    return myData;
+
+  }
+
   function formatMonthlyReport(data) {
 
     var currentYearLOBAggregate = [
@@ -4192,6 +4480,7 @@ var TSR_App = (function (model, view) {
     currentYearTier1LOBAggregate[11].name = "Safety & Health";
 
     //
+    /*
     console.log(totalActive);
     console.log(totalAggregate)
     console.log(myNewData)
@@ -4199,6 +4488,7 @@ var TSR_App = (function (model, view) {
     console.log(currentYearCompleteTierAggregate)
     console.log(totalReview)
     console.log(totalRemediation)
+    */
 
     return {
       "active": totalActive,
@@ -4210,6 +4500,218 @@ var TSR_App = (function (model, view) {
       "completeByTier": currentYearCompleteTierAggregate,
       "byLOB": currentYearLOBAggregate,
       "byTier1LOB": currentYearTier1LOBAggregate
+    }
+
+  }
+
+  function formatMonthlyReport2(data) {
+
+    var newData = [];
+    var dataActive = [];
+    var dataComplete = [];
+    var dataTotal = [];
+
+    var LOBs = _.orderBy(_.filter(_.map(_.groupBy(data, function (d) { return d.LOBName.Title }), function (val, index, array) { return { name: index, data: 0 } }), function (o) { return o.name !== "Energy Supply" }), ['name'], ['asc']);
+
+    var Months = [
+      { name: "January", data: 0 },
+      { name: "February", data: 0 },
+      { name: "March", data: 0 },
+      { name: "April", data: 0 },
+      { name: "May", data: 0 },
+      { name: "June", data: 0 },
+      { name: "July", data: 0 },
+      { name: "August", data: 0 },
+      { name: "September", data: 0 },
+      { name: "October", data: 0 },
+      { name: "November", data: 0 },
+      { name: "December", data: 0 }
+    ];
+
+    var currentYear = new Date();
+    currentYear = currentYear.getFullYear();
+    var totalAggregate = 0;
+    var totalActive = 0;
+    var totalReview = 0;
+    var totalRemediation = 0;
+
+    var temp = null;
+    var dateStart = null, dateComplete = null, remediationNeeded = null, TSRStatus = null, remediationStatus = null, remedaitionStart = null, remediationComplete = null;
+    var myNewData = []
+
+    data.forEach(function (ele) {
+      temp = new Date(ele.DateIQUploaded);
+
+
+      dateStart = new Date(ele.DateIQUploaded);
+      dateComplete = new Date(ele.DateComplete);
+      remediationNeeded = ele.Remediation_Needed;
+      TSRStatus = ele.TSr_x0020_Status;
+      remediationStatus = ele.Remediation_Status;
+      remedaitionStart = new Date(ele.Remediation_Date_Start);
+      remediationComplete = new Date(ele.Remediation_Date_Complete);
+
+      if ((dateStart.getFullYear() === currentYear ||
+        (dateComplete.getFullYear() === currentYear && TSRStatus !== "Certificate/report  Valid") ||
+        remedaitionStart.getFullYear() === currentYear ||
+        remediationComplete.getFullYear() === currentYear) || (
+          TSRStatus !== "Review Complete" &&
+          TSRStatus !== "Review Cancelled" &&
+          TSRStatus !== "On Hold" &&
+          TSRStatus !== "On Site Assessment Complete" &&
+          TSRStatus !== "No TSR Required" &&
+          TSRStatus !== "Certificate/report  Valid" &&
+          TSRStatus !== null
+        ) || (
+          TSRStatus === "Review Complete" && remediationStatus !== "Remediation Complete" && remediationStatus !== "Remediation Cancelled" && remediationStatus !== null
+        )) {
+
+
+        if ((
+          TSRStatus !== "Review Complete" &&
+          TSRStatus !== "Review Cancelled" &&
+          TSRStatus !== "On Hold" &&
+          TSRStatus !== "On Site Assessment Complete" &&
+          TSRStatus !== "No TSR Required"
+        ) || (
+            TSRStatus === "Review Complete" && remediationStatus !== "Remediation Complete" && remediationStatus !== "Remediation Cancelled" && remediationStatus !== null
+          )) {
+          // Active 
+          dataActive.push(ele)
+
+          if (
+            TSRStatus !== "Review Complete" &&
+            TSRStatus !== "Review Cancelled" &&
+            TSRStatus !== "On Hold" &&
+            TSRStatus !== "On Site Assessment Complete" &&
+            TSRStatus !== "No TSR Required"
+          ) {
+            totalReview++;
+          }
+
+          if (
+            TSRStatus === "Review Complete" && remediationStatus !== "Remediation Complete" && remediationStatus !== "Remediation Cancelled" && remediationStatus !== null
+          ) {
+            totalRemediation++;
+          }
+
+
+
+
+          myNewData.push(ele.ID)
+          totalActive++
+
+        }
+        else {
+          // Complete
+
+          dataComplete.push(ele);
+
+
+        }
+
+        dataTotal.push(ele);
+        totalAggregate++
+      }
+    });
+
+
+    //myData.byTierHighLOB = _.cloneDeep(myData.byTier);
+    //myData.byTier = _.mapKeys(myData.byTier, function (val, key) { return "Tier " + key; })
+    //myData.byTier = _.mapValues(myData.byTier, "length")
+    //myData.byTier = _.map(myData.byTier, function (val, index, array) { return { name: index, data: val } })
+
+    var Total = {
+      total: dataTotal.length
+    }
+
+    dataTotal = _.groupBy(dataTotal, function (d) { return d.Tier })
+    dataTotal = _.mapKeys(dataTotal, function (val, key) { return "Tier " + key; })
+
+    if (!_.has(dataTotal, "Tier 1")) {
+      dataTotal["Tier 1"] = []
+    }
+    if (!_.has(dataTotal, "Tier 2")) {
+      dataTotal["Tier 2"] = []
+    }
+    if (!_.has(dataTotal, "Tier 3")) {
+      dataTotal["Tier 3"] = []
+    }
+    if (!_.has(dataTotal, "Tier 4")) {
+      dataTotal["Tier 4"] = []
+    }
+
+    dataTotal = _.mapValues(dataTotal, function (val, index, array) {
+      return {
+        total: val.length,
+        items: _.orderBy(_.unionWith(_.map(_.mapValues(_.groupBy(val, function (d) { return d.LOBName.Title }), 'length'), function (val, index, array) { return { name: index, data: val } }), LOBs, function (n1, n2) { return n1.name === n2.name }), ["name"], ['asc'])
+      }
+    })
+
+    Total.Data = dataTotal;
+
+
+    var Active = {
+      total: dataActive.length
+    }
+    console.log(_.groupBy(dataActive, function (d) { return d.TSr_x0020_Status }))
+
+    dataActive = _.groupBy(dataActive, function (d) { return d.Tier })
+    dataActive = _.mapKeys(dataActive, function (val, key) { return "Tier " + key; })
+
+    if (!_.has(dataActive, "Tier 1")) {
+      dataActive["Tier 1"] = []
+      console.log("No Tier 1s found")
+    }
+    if (!_.has(dataActive, "Tier 2")) {
+      dataActive["Tier 2"] = []
+    }
+    if (!_.has(dataActive, "Tier 3")) {
+      dataActive["Tier 3"] = []
+    }
+
+    dataActive = _.mapValues(dataActive, function (val, index, array) {
+      return {
+        total: val.length,
+        items: _.orderBy(_.unionWith(_.map(_.mapValues(_.groupBy(val, function (d) { return d.LOBName.Title }), 'length'), function (val, index, array) { return { name: index, data: val } }), LOBs, function (n1, n2) { return n1.name === n2.name }), ["name"], ['asc'])
+      }
+    })
+
+    Active.Data = dataActive;
+
+    var Complete = {
+      total: dataComplete.length
+    }
+
+    dataComplete = _.groupBy(dataComplete, function (d) { return d.Tier })
+    dataComplete = _.mapKeys(dataComplete, function (val, key) { return "Tier " + key; })
+
+    if (!_.has(dataComplete, "Tier 1")) {
+      dataComplete["Tier 1"] = []
+    }
+    if (!_.has(dataComplete, "Tier 2")) {
+      dataComplete["Tier 2"] = []
+    }
+    if (!_.has(dataComplete, "Tier 3")) {
+      dataComplete["Tier 3"] = []
+    }
+    if (!_.has(dataComplete, "Tier 4")) {
+      dataComplete["Tier 4"] = []
+    }
+
+    dataComplete = _.mapValues(dataComplete, function (val, index, array) {
+      return {
+        total: val.length,
+        items: _.orderBy(_.unionWith(_.map(_.mapValues(_.groupBy(val, function (d) { return d.LOBName.Title }), 'length'), function (val, index, array) { return { name: index, data: val } }), LOBs, function (n1, n2) { return n1.name === n2.name }), ["name"], ['asc'])
+      }
+    })
+
+    Complete.Data = dataComplete;
+
+    return {
+      Active: Active,
+      Complete: Complete,
+      Total: Total
     }
 
   }
@@ -4308,6 +4810,32 @@ var TSR_App = (function (model, view) {
 
       //Semantic UI Accordion
       $(".ui.accordion").accordion();
+
+      TSR_Model.getAllDepartments(state.usingSP, function (data) {
+
+        data.reduce(function (accu, current, index, arr) {
+          if (current.ReOrgOut === false) {
+            accu.push(current.Title)
+          }
+          return accu
+        }, []).forEach(function (item) {
+          $("#K_LOB").append("<option>" + item + "</option>")
+        })
+      });
+
+      TSR_Model.getAllUsers(state.usingSP, function (data) {
+        data.reduce(function (accu, current, index, arr) {
+          if (current.Active === "Yes") {
+            if (current.Assessment !== "N/A") accu.push(current.Assessment)
+          }
+          return accu
+        }, []).forEach(function (item) {
+
+          $("#K_assessor").append("<option>" + item.toUpperCase() + "</option>")
+        })
+
+      });
+
     },
     setButtons: function () {
       buttons.forEach(function (ele) {
@@ -5149,21 +5677,64 @@ var TSR_App = (function (model, view) {
         var currentYear = new Date();
         currentYear = currentYear.getFullYear();
 
+        var colorPicker = {
+          "Customer Care & CRE": "#e6194B",
+          "Information Technology & Supply Chain": "#3cb44b",
+          "Human Resources": "#ffe119",
+          "Gas Operations": "#4363d8",
+          "Electric Operations": "#f58231",
+          "Corporate Services": "#fabebe",
+          "Finance & Risk": "#911eb4",
+          "Safety Health and Enterprise": "#42d4f4",
+          "Generation": "#f032e6",
+          "Pres/ CEO /COO": "#bfef45",
+          "Ethics & Compliance": "#469990",
+          "General Counsel/Law": "#e6beff",
+          "Strategy & Policy": "#800000",
+          "Department 1": "#e6194B",
+          "Department 2": "#3cb44b",
+          "Department 3": "#ffe119",
+          "Department 4": "#4363d8",
+          "Department 5": "#fabebe"
+        };
+
+        var tierColorPicker = {
+          "Tier 1": {
+            backgroundColor: '#EBCCD1',
+            borderColor: 'RGB(156, 0, 6)'
+          },
+          "Tier 2": {
+            backgroundColor: '#ffe0cc',
+            borderColor: '#ff6600'
+          },
+          "Tier 3": {
+            backgroundColor: '#FAEBCC',
+            borderColor: 'RGB(156, 101, 0)'
+          },
+          "Tier 4": {
+            backgroundColor: '#D6E9C6',
+            borderColor: 'RGB(0, 97, 0)'
+          }
+        }
+
         // CURRENT YEAR STEVE REPORT
 
 
         //  ******** RENDER Current Year MONTHLY AGGREGATE (STEVE Reports) ***********
 
+        var theHelp = Chart.helpers;
 
         var monthlyReport = formatMonthlyReport(data);
+        var FullData = formatMonthlyReport2(data);
+
+        console.log(FullData)
 
         $("#" + "Total_Active").text(monthlyReport.active);
         $("#" + "Total_Complete").text(monthlyReport.complete);
         $("#" + "Total_Review").text(monthlyReport.review);
         $("#" + "Total_Remediation").text(monthlyReport.remediation);
 
-        var AggregateTier = document.getElementById("AggregateByTier").getContext('2d');
-        var myChart = new Chart(AggregateTier, {
+        var myChart = new Chart(document.getElementById("AggregateByTier").getContext('2d'), {
           type: 'bar',
           data: {
             labels: monthlyReport.completeByTier.map(function (e) { return e.name }),
@@ -5173,8 +5744,9 @@ var TSR_App = (function (model, view) {
                 backgroundColor: "#3e95cd",
                 data: monthlyReport.completeByTier.map(function (e) { return e.data })
               }, {
-                label: "Active",
-                backgroundColor: "#8e5ea2",
+                label: "Ongoing",
+                backgroundColor: '#D6E9C6',//"#8e5ea2",
+                borderColor: 'RGB(0, 97, 0)',
                 data: monthlyReport.activeByTier.map(function (e) { return e.data })
               }
             ]
@@ -5182,116 +5754,539 @@ var TSR_App = (function (model, view) {
           options: {
             title: {
               display: true,
-              text: '2019 Aggregate by Tier'
+              text: 'TSR\'s by Tier',
+              fontSize: 30,
+              padding: 20
+            },
+            tooltips: {
+              titleFontSize: 18,
+              bodyFontSize: 15,
+              xPadding: 10,
+              yPadding: 10
+            },
+            legend: {
+              display: true,
+              position: 'top',
+              labels: {
+                fontSize: 16,
+                fontStyle: "bold"
+              }
+            },
+            animation: {
+              onProgress: function (animation) {
+                //progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+              },
+              onComplete: function (animation) {
+                $("#AggregateByTier").siblings('.active').addClass('disabled').removeClass('active');
+              }
             }
           }
         });
 
+        //console.log(_.orderBy(FullData.Total.Data["Tier 1"].items, ['data'], ['desc']))
 
-
-        TSR_View.renderBarChart(
-          "#AggregateByMonth",
-          monthlyReport.byLOB,
-          currentYear + " Aggregate by LOB (All Tiers)",
-          "Line of Business",
-          "Assessments",
-          true
-        );
-
-
-        TSR_View.renderBarChart(
-          "#HighAggregateByLOB",
-          monthlyReport.byTier1LOB,
-          currentYear + " Aggregate by LOB (Tier 1 only)",
-          "Line of Business",
-          "Assessments",
-          true
-        );
-
-        var ctx = document.getElementById("MyCharts").getContext('2d');
-        var myChart = new Chart(ctx, {
-          type: 'bar',
+        var HighRiskChart = new Chart(document.getElementById("HighRiskByLOBPieChart").getContext('2d'), {
+          type: 'pie',
           data: {
-            labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+            labels: _.orderBy(FullData.Total.Data["Tier 1"].items, ['data'], ['desc']).map(function (val) { return val.name }),
             datasets: [{
-              label: ['# of Votes', '# of cancellations'],
-              data: [12, 19, 3, 5, 2, 3],
-              backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-              ],
-              borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-              ],
-              borderWidth: 1
+              backgroundColor: ["#e6194B", "#3cb44b", "#ffe119", "#4363d8", "#f58231", "#911eb4", "#42d4f4", "#f032e6", "#bfef45", "#fabebe", "#469990", "#e6beff", "800000"],
+              data: _.orderBy(FullData.Total.Data["Tier 1"].items, ['data'], ['desc']).map(function (val) { return val.data })
             }]
           },
           options: {
+            title: {
+              display: true,
+              text: 'All High Risk (Tier 1) TSR\'s by LOB',
+              fontSize: 30,
+              padding: 30
+            },
+            legend: {
+              display: true,
+              position: 'right',
+              labels: {
+                fontSize: 16,
+                fontStyle: "bold",
+                usePointStyle: true,
+                generateLabels: function (chart) {
+                  var data = chart.data;
+                  function getSum(total, num) {
+                    return total + num;
+                  }
+                  if (data.labels.length && data.datasets.length) {
+                    return data.labels.map(function (label, i) {
+                      var meta = chart.getDatasetMeta(0);
+                      var ds = data.datasets[0];
+                      var arc = meta.data[i];
+                      var custom = arc && arc.custom || {};
+                      var getValueAtIndexOrDefault = theHelp.getValueAtIndexOrDefault;
+                      var arcOpts = chart.options.elements.arc;
+                      var fill = custom.backgroundColor ? custom.backgroundColor : getValueAtIndexOrDefault(ds.backgroundColor, i, arcOpts.backgroundColor);
+                      var stroke = custom.borderColor ? custom.borderColor : getValueAtIndexOrDefault(ds.borderColor, i, arcOpts.borderColor);
+                      var bw = custom.borderWidth ? custom.borderWidth : getValueAtIndexOrDefault(ds.borderWidth, i, arcOpts.borderWidth);
+                      return {
+                        // And finally : 
+                        text: (ds.data[i] / ds.data.reduce(getSum) * 100).toFixed(2) + " % : " + label,
+                        fillStyle: fill,
+                        strokeStyle: stroke,
+                        lineWidth: bw,
+                        hidden: isNaN(ds.data[i]) || meta.data[i].hidden,
+                        index: i
+                      };
+                    });
+                  }
+                  return [];
+                }
+              }
+            },
+            tooltips: {
+              titleFontSize: 30,
+              bodyFontSize: 20,
+              xPadding: 10,
+              yPadding: 10
+            },
+            animation: {
+              onProgress: function (animation) {
+                //progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+              },
+              onComplete: function (animation) {
+                $("#HighRiskByLOBPieChart").siblings('.active').addClass('disabled').removeClass('active');
+              }
+            }
+          },
+        });
+
+
+
+
+        //console.log(monthlyReport)
+        //console.log(FullData)
+        //console.log(FullData.Active.Data["Tier 1"].items.map(function (val) { return val.name }))
+
+        var ActiveChart = new Chart(document.getElementById("ActiveTSRByLOB").getContext('2d'), {
+          type: 'bar',
+          data: {
+            labels: FullData.Active.Data["Tier 1"].items.map(function (val) { return val.name }),
+            datasets: _.map(FullData.Active.Data, function (item, index, arr) {
+              return {
+                label: [index],
+                data: item.items.map(function (val) { return val.data }),
+                backgroundColor: tierColorPicker[index].backgroundColor,
+                borderColor: tierColorPicker[index].borderColor,
+                borderWidth: 1.5
+              }
+            }).reverse()
+          },
+          options: {
+            aspectRatio: 1.5,
+            title: {
+              display: true,
+              text: 'Ongoing TSR\'s by LOB',
+              fontSize: 30,
+              padding: 20
+            },
+            legend: {
+              display: true,
+              position: 'right',
+              labels: {
+                fontSize: 16,
+                fontStyle: "bold"
+              },
+              reverse: true
+            },
+            tooltips: {
+              titleFontSize: 18,
+              bodyFontSize: 15,
+              xPadding: 10,
+              yPadding: 10
+            },
             scales: {
               yAxes: [{
                 ticks: {
                   beginAtZero: true
+                },
+                stacked: true
+              }],
+              xAxes: [{
+                stacked: true,
+                ticks: {
+                  autoSkip: false
                 }
               }]
+            },
+            animation: {
+              onProgress: function (animation) {
+                //progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+              },
+              onComplete: function (animation) {
+                $("#ActiveTSRByLOB").siblings('.active').addClass('disabled').removeClass('active');
+              }
             }
           }
         });
+
+
+        //console.log(FullData.Active.Data["Tier 1"].items.map(function (val) { return val.name }))
+
+        var completeChart = new Chart(document.getElementById("CompleteTSRByLOB").getContext('2d'), {
+          type: 'bar',
+          data: {
+            labels: FullData.Complete.Data["Tier 1"].items.map(function (val) { return val.name }),
+            datasets: _.map(FullData.Complete.Data, function (item, index, arr) {
+              return {
+                label: [index],
+                data: item.items.map(function (val) { return val.data }),
+                backgroundColor: tierColorPicker[index].backgroundColor,
+                borderColor: tierColorPicker[index].borderColor,
+                borderWidth: 1.5
+              }
+            }).reverse()
+          },
+          options: {
+            aspectRatio: 1.5,
+            title: {
+              display: true,
+              text: 'Complete TSR\'s by LOB',
+              fontSize: 30,
+              padding: 20
+            },
+            legend: {
+              display: true,
+              position: 'right',
+              labels: {
+                fontSize: 16,
+                fontStyle: "bold"
+              },
+              reverse: true
+            },
+            tooltips: {
+              titleFontSize: 18,
+              bodyFontSize: 15,
+              xPadding: 10,
+              yPadding: 10
+            },
+            scales: {
+              yAxes: [{
+                ticks: {
+                  beginAtZero: true
+                },
+                stacked: true
+              }],
+              xAxes: [{
+                stacked: true,
+                ticks: {
+                  autoSkip: false
+                }
+              }]
+            },
+            animation: {
+              onProgress: function (animation) {
+                //progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+              },
+              onComplete: function (animation) {
+                $("#CompleteTSRByLOB").siblings('.active').addClass('disabled').removeClass('active');
+              }
+            }
+          }
+        });
+
+
+
 
         // ********************************************************************
 
 
         var current = formatSubmissionData(data, currentYear);
+        var current2 = formatSubmissionData2(data, currentYear);
+
+
 
         // RENDER CURRENT YEAR
 
         TSR_View.renderAllKPIs(current.total, current.byMonth, 1, currentYear);
 
-        TSR_View.renderBarChart(
-          "#AggregateByMonth_1",
-          current.byMonth,
-          currentYear + " Assessments by Month",
-          "Months",
-          "Assessments",
-          true
-        );
 
-        TSR_View.renderBarChart(
-          "#AggregateByTier_1",
-          current.byTier,
-          currentYear + " Assessments by Tier",
-          "Tier",
-          "Assessments",
-          false
-        );
 
-        TSR_View.renderBarChart(
-          "#AggregateByLOB_1",
-          current.byLOB,
-          currentYear + " Assessments by LOB",
-          "Line of Business",
-          "Assessments",
-          true
-        );
+        //console.log(_.orderBy(current2.byLOB, ['data'], ['desc']).map(function (val) { return val.name }))
 
-        TSR_View.renderBarChart(
-          "#HighAggregateByLOB_1",
-          current.byTierHighLOB,
-          currentYear + " Assessments by LOB (Tier 1 only)",
-          "Line of Business",
-          "Assessments",
-          true
-        );
+
+        var newChart1 = new Chart(document.getElementById("2019LineChartAllRequests").getContext('2d'), {
+          type: 'line',
+          data: {
+            // Labels should be Date objects
+            labels: ['January', "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+            datasets: [{
+              fill: false,
+              label: 'TSR Requests',
+              data: current2.byMonth,
+              borderColor: "#e6194B",
+              backgroundColor: "#e6194B",
+              lineTension: 0,
+            }]
+          },
+          options: {
+            responsive: true,
+            title: {
+              display: true,
+              text: currentYear + ' TSR Requests by Month',
+              fontSize: 30,
+              padding: 30
+            },
+            legend: {
+              display: true,
+              position: 'top',
+              labels: {
+                fontSize: 16,
+                fontStyle: "bold"
+              }
+            },
+            tooltips: {
+              titleFontSize: 22,
+              bodyFontSize: 18,
+              xPadding: 10,
+              yPadding: 10
+            },
+            scales: {
+              xAxes: [{
+                display: true,
+                scaleLabel: {
+                  display: true,
+                  labelString: "Month",
+                  fontSize: 24
+
+                }
+              }],
+              yAxes: [{
+                ticks: {
+                  beginAtZero: true,
+                },
+                display: true,
+                scaleLabel: {
+                  display: true,
+                  labelString: "TSR Requests",
+                  fontSize: 24
+                }
+              }]
+            },
+            animation: {
+              onProgress: function (animation) {
+                //progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+              },
+              onComplete: function (animation) {
+                $("#2019LineChartAllRequests").siblings('.active').addClass('disabled').removeClass('active');
+              }
+            }
+          }
+        });
+
+        var newChart2 = new Chart(document.getElementById("2019LineChartRequestsByLOB").getContext('2d'), {
+          type: 'line',
+          data: {
+            // Labels should be Date objects
+            labels: ['January', "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+            datasets: _.orderBy(current2.byLOB, ['data'], ['desc']).map(function (val) { return val.name }).map(function (item) {
+              return {
+                fill: false,
+                label: item === "Information Technology & Supply Chain" ? "IT & Supply Chain" : item,
+                data: current2.byLOBTime[item],
+                borderColor: colorPicker[item],
+                backgroundColor: colorPicker[item],
+                lineTension: 0
+              }
+            })
+          },
+          options: {
+            aspectRatio: 1.5,
+            responsive: true,
+            title: {
+              display: true,
+              text: currentYear + ' TSR Requests by LOB',
+              fontSize: 30,
+              padding: 30
+            },
+            legend: {
+              display: true,
+              position: 'right',
+              labels: {
+                fontSize: 16,
+                fontStyle: "bold"
+              }
+            },
+            tooltips: {
+              titleFontSize: 22,
+              bodyFontSize: 18,
+              xPadding: 10,
+              yPadding: 10
+            },
+            scales: {
+              xAxes: [{
+                display: true,
+                scaleLabel: {
+                  display: true,
+                  labelString: "Month",
+                  fontSize: 24
+
+                }
+              }],
+              yAxes: [{
+                ticks: {
+                  beginAtZero: true,
+                },
+                display: true,
+                scaleLabel: {
+                  display: true,
+                  labelString: "TSR Requests",
+                  fontSize: 24
+                }
+              }]
+            },
+            animation: {
+              onProgress: function (animation) {
+                //progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+              },
+              onComplete: function (animation) {
+                $("#2019LineChartRequestsByLOB").siblings('.active').addClass('disabled').removeClass('active');
+              }
+            }
+          }
+        });
+
+        var newChart3 = new Chart(document.getElementById("2019PieChartRequestsByLOB").getContext('2d'), {
+          type: 'pie',
+          data: {
+            labels: _.orderBy(current2.byLOB, ['data'], ['desc']).map(function (val) { return val.name === "Information Technology & Supply Chain" ? "IT & Supply Chain" : val.name }),
+            datasets: [{
+              backgroundColor: _.orderBy(current2.byLOB, ['data'], ['desc']).map(function (val) { return colorPicker[val.name] }),
+              data: _.orderBy(current2.byLOB, ['data'], ['desc']).map(function (val) { return val.data })
+            }]
+          },
+          options: {
+            title: {
+              display: true,
+              text: currentYear + ' TSR Requests by LOB',
+              fontSize: 30,
+              padding: 30
+            },
+            legend: {
+              display: true,
+              position: 'right',
+              labels: {
+                fontSize: 16,
+                fontStyle: "bold",
+                usePointStyle: true,
+                generateLabels: function (chart) {
+                  var data = chart.data;
+                  function getSum(total, num) {
+                    return total + num;
+                  }
+                  if (data.labels.length && data.datasets.length) {
+                    return data.labels.map(function (label, i) {
+                      var meta = chart.getDatasetMeta(0);
+                      var ds = data.datasets[0];
+                      var arc = meta.data[i];
+                      var custom = arc && arc.custom || {};
+                      var getValueAtIndexOrDefault = theHelp.getValueAtIndexOrDefault;
+                      var arcOpts = chart.options.elements.arc;
+                      var fill = custom.backgroundColor ? custom.backgroundColor : getValueAtIndexOrDefault(ds.backgroundColor, i, arcOpts.backgroundColor);
+                      var stroke = custom.borderColor ? custom.borderColor : getValueAtIndexOrDefault(ds.borderColor, i, arcOpts.borderColor);
+                      var bw = custom.borderWidth ? custom.borderWidth : getValueAtIndexOrDefault(ds.borderWidth, i, arcOpts.borderWidth);
+                      return {
+                        // And finally : 
+                        text: ((ds.data[i] / ds.data.reduce(getSum)) * 100).toFixed(2) + " % : " + label,
+                        fillStyle: fill,
+                        strokeStyle: stroke,
+                        lineWidth: bw,
+                        hidden: isNaN(ds.data[i]) || meta.data[i].hidden,
+                        index: i
+                      };
+                    });
+                  }
+                  return [];
+                }
+              }
+            },
+            tooltips: {
+              titleFontSize: 30,
+              bodyFontSize: 20,
+              xPadding: 10,
+              yPadding: 10
+            },
+            animation: {
+              onProgress: function (animation) {
+                //progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+              },
+              onComplete: function (animation) {
+                $("#2019PieChartRequestsByLOB").siblings('.active').addClass('disabled').removeClass('active');
+              }
+            }
+          },
+        });
+
+        var newChart4 = new Chart(document.getElementById("2019BarChartRequestsByLOB").getContext('2d'), {
+          type: 'bar',
+          data: {
+            labels: current2.byTier["Tier 1"].items.map(function (val) { return val.name }),
+            datasets: _.map(current2.byTier, function (item, index, arr) {
+              return {
+                label: [index],
+                data: item.items.map(function (val) { return val.data }),
+                backgroundColor: tierColorPicker[index].backgroundColor,
+                borderColor: tierColorPicker[index].borderColor,
+                borderWidth: 1.5
+              }
+            }).reverse()
+          },
+          options: {
+            aspectRatio: 1.5,
+            title: {
+              display: true,
+              text: currentYear + ' TSR Requests by Tier',
+              fontSize: 30,
+              padding: 20
+            },
+            legend: {
+              display: true,
+              position: 'right',
+              labels: {
+                fontSize: 16,
+                fontStyle: "bold"
+              },
+              reverse: true
+            },
+            tooltips: {
+              titleFontSize: 18,
+              bodyFontSize: 15,
+              xPadding: 10,
+              yPadding: 10
+            },
+            scales: {
+              yAxes: [{
+                ticks: {
+                  beginAtZero: true
+                },
+                stacked: true
+              }],
+              xAxes: [{
+                stacked: true,
+                ticks: {
+                  autoSkip: false
+                }
+              }]
+            },
+            animation: {
+              onProgress: function (animation) {
+                //progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+              },
+              onComplete: function (animation) {
+                $("#2019BarChartRequestsByLOB").siblings('.active').addClass('disabled').removeClass('active');
+              }
+            }
+          }
+        });
 
         var previous = formatSubmissionData(data, currentYear - 1);
+        var previous2 = formatSubmissionData2(data, currentYear - 1);
+
 
         // RENDER PREVIOUS YEAR
 
@@ -5302,88 +6297,574 @@ var TSR_App = (function (model, view) {
           currentYear - 1
         );
 
-        TSR_View.renderBarChart(
-          "#AggregateByMonth_2",
-          previous.byMonth,
-          currentYear - 1 + " Assessments by Month",
-          "Months",
-          "Assessments",
-          true
-        );
 
-        TSR_View.renderBarChart(
-          "#AggregateByTier_2",
-          previous.byTier,
-          currentYear - 1 + " Assessments by Tier",
-          "Tier",
-          "Assessments",
-          false
-        );
+        var newChart5 = new Chart(document.getElementById("2018LineChartAllRequests").getContext('2d'), {
+          type: 'line',
+          data: {
+            // Labels should be Date objects
+            labels: ['January', "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+            datasets: [{
+              fill: false,
+              label: 'TSR Requests',
+              data: previous2.byMonth,
+              borderColor: "#e6194B",
+              backgroundColor: "#e6194B",
+              lineTension: 0,
+            }]
+          },
+          options: {
+            responsive: true,
+            title: {
+              display: true,
+              text: (currentYear - 1) + ' TSR Requests',
+              fontSize: 30,
+              padding: 30
+            },
+            legend: {
+              display: true,
+              position: 'top',
+              labels: {
+                fontSize: 16,
+                fontStyle: "bold"
+              }
+            },
+            tooltips: {
+              titleFontSize: 22,
+              bodyFontSize: 18,
+              xPadding: 10,
+              yPadding: 10
+            },
+            scales: {
+              xAxes: [{
+                display: true,
+                scaleLabel: {
+                  display: true,
+                  labelString: "Month",
+                  fontSize: 24
 
-        TSR_View.renderBarChart(
-          "#AggregateByLOB_2",
-          previous.byLOB,
-          currentYear - 1 + " Assessments by LOB",
-          "Line of Business",
-          "Assessments",
-          true
-        );
+                }
+              }],
+              yAxes: [{
+                ticks: {
+                  beginAtZero: true,
+                },
+                display: true,
+                scaleLabel: {
+                  display: true,
+                  labelString: "TSR Requests",
+                  fontSize: 24
+                }
+              }]
+            },
+            animation: {
+              onProgress: function (animation) {
+                //progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+              },
+              onComplete: function (animation) {
+                $("#2018LineChartAllRequests").siblings('.active').addClass('disabled').removeClass('active');
+              }
+            }
+          }
+        });
 
-        TSR_View.renderBarChart(
-          "#HighAggregateByLOB_2",
-          previous.byTierHighLOB,
-          currentYear - 1 + " Assessments by LOB (Tier 1 only)",
-          "Line of Business",
-          "Assessments",
-          true
-        );
+        var newChart6 = new Chart(document.getElementById("2018LineChartRequestsByLOB").getContext('2d'), {
+          type: 'line',
+          data: {
+            // Labels should be Date objects
+            labels: ['January', "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+            datasets: _.orderBy(previous2.byLOB, ['data'], ['desc']).map(function (val) { return val.name }).map(function (item) {
+              return {
+                fill: false,
+                label: item === "Information Technology & Supply Chain" ? "IT & Supply Chain" : item,
+                data: previous2.byLOBTime[item],
+                borderColor: colorPicker[item],
+                backgroundColor: colorPicker[item],
+                lineTension: 0
+              }
+            })
+          },
+          options: {
+            aspectRatio: 1.5,
+            responsive: true,
+            title: {
+              display: true,
+              text: (currentYear - 1) + ' TSR Requests by LOB',
+              fontSize: 30,
+              padding: 30
+            },
+            legend: {
+              display: true,
+              position: 'right',
+              labels: {
+                fontSize: 16,
+                fontStyle: "bold"
+              }
+            },
+            tooltips: {
+              titleFontSize: 22,
+              bodyFontSize: 18,
+              xPadding: 10,
+              yPadding: 10
+            },
+            scales: {
+              xAxes: [{
+                display: true,
+                scaleLabel: {
+                  display: true,
+                  labelString: "Month",
+                  fontSize: 24
+
+                }
+              }],
+              yAxes: [{
+                ticks: {
+                  beginAtZero: true,
+                },
+                display: true,
+                scaleLabel: {
+                  display: true,
+                  labelString: "TSR Requests",
+                  fontSize: 24
+                }
+              }]
+            },
+            animation: {
+              onProgress: function (animation) {
+                //progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+              },
+              onComplete: function (animation) {
+                $("#2018LineChartRequestsByLOB").siblings('.active').addClass('disabled').removeClass('active');
+              }
+            }
+          }
+        });
+
+        var newChart7 = new Chart(document.getElementById("2018PieChartRequestsByLOB").getContext('2d'), {
+          type: 'pie',
+          data: {
+            labels: _.orderBy(previous2.byLOB, ['data'], ['desc']).map(function (val) { return val.name === "Information Technology & Supply Chain" ? "IT & Supply Chain" : val.name }),
+            datasets: [{
+              backgroundColor: _.orderBy(previous2.byLOB, ['data'], ['desc']).map(function (val) { return colorPicker[val.name] }),
+              data: _.orderBy(previous2.byLOB, ['data'], ['desc']).map(function (val) { return val.data })
+            }]
+          },
+          options: {
+            title: {
+              display: true,
+              text: (currentYear - 1) + ' TSR Requests by LOB',
+              fontSize: 30,
+              padding: 30
+            },
+            legend: {
+              display: true,
+              position: 'right',
+              labels: {
+                fontSize: 16,
+                fontStyle: "bold",
+                usePointStyle: true,
+                generateLabels: function (chart) {
+                  var data = chart.data;
+                  function getSum(total, num) {
+                    return total + num;
+                  }
+                  if (data.labels.length && data.datasets.length) {
+                    return data.labels.map(function (label, i) {
+                      var meta = chart.getDatasetMeta(0);
+                      var ds = data.datasets[0];
+                      var arc = meta.data[i];
+                      var custom = arc && arc.custom || {};
+                      var getValueAtIndexOrDefault = theHelp.getValueAtIndexOrDefault;
+                      var arcOpts = chart.options.elements.arc;
+                      var fill = custom.backgroundColor ? custom.backgroundColor : getValueAtIndexOrDefault(ds.backgroundColor, i, arcOpts.backgroundColor);
+                      var stroke = custom.borderColor ? custom.borderColor : getValueAtIndexOrDefault(ds.borderColor, i, arcOpts.borderColor);
+                      var bw = custom.borderWidth ? custom.borderWidth : getValueAtIndexOrDefault(ds.borderWidth, i, arcOpts.borderWidth);
+                      return {
+                        // And finally : 
+                        text: ((ds.data[i] / ds.data.reduce(getSum)) * 100).toFixed(2) + " % : " + label,
+                        fillStyle: fill,
+                        strokeStyle: stroke,
+                        lineWidth: bw,
+                        hidden: isNaN(ds.data[i]) || meta.data[i].hidden,
+                        index: i
+                      };
+                    });
+                  }
+                  return [];
+                }
+              }
+            },
+            tooltips: {
+              titleFontSize: 30,
+              bodyFontSize: 20,
+              xPadding: 10,
+              yPadding: 10
+            },
+            animation: {
+              onProgress: function (animation) {
+                //progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+              },
+              onComplete: function (animation) {
+                $("#2018PieChartRequestsByLOB").siblings('.active').addClass('disabled').removeClass('active');
+              }
+            }
+          },
+        });
+
+        var newChart8 = new Chart(document.getElementById("2018BarChartRequestsByLOB").getContext('2d'), {
+          type: 'bar',
+          data: {
+            labels: previous2.byTier["Tier 1"].items.map(function (val) { return val.name }),
+            datasets: _.map(previous2.byTier, function (item, index, arr) {
+              return {
+                label: [index],
+                data: item.items.map(function (val) { return val.data }),
+                backgroundColor: tierColorPicker[index].backgroundColor,
+                borderColor: tierColorPicker[index].borderColor,
+                borderWidth: 1.5
+              }
+            }).reverse()
+          },
+          options: {
+            aspectRatio: 1.5,
+            title: {
+              display: true,
+              text: (currentYear - 1) + ' TSR Requests by Tier',
+              fontSize: 30,
+              padding: 20
+            },
+            legend: {
+              display: true,
+              position: 'right',
+              labels: {
+                fontSize: 16,
+                fontStyle: "bold"
+              },
+              reverse: true
+            },
+            tooltips: {
+              titleFontSize: 18,
+              bodyFontSize: 15,
+              xPadding: 10,
+              yPadding: 10
+            },
+            scales: {
+              yAxes: [{
+                ticks: {
+                  beginAtZero: true
+                },
+                stacked: true
+              }],
+              xAxes: [{
+                stacked: true,
+                ticks: {
+                  autoSkip: false
+                }
+              }]
+            },
+            animation: {
+              onProgress: function (animation) {
+                //progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+              },
+              onComplete: function (animation) {
+                $("#2018BarChartRequestsByLOB").siblings('.active').addClass('disabled').removeClass('active');
+              }
+            }
+          }
+        });
 
         // RENDER 2 YEARS BEFORE CURRENT
 
-        var previous2 = formatSubmissionData(data, currentYear - 2);
+        var last = formatSubmissionData(data, currentYear - 2);
+        var last2 = formatSubmissionData2(data, currentYear - 2);
 
         TSR_View.renderAllKPIs(
-          previous2.total,
-          previous2.byMonth,
+          last.total,
+          last.byMonth,
           3,
           currentYear - 2
         );
 
-        TSR_View.renderBarChart(
-          "#AggregateByMonth_3",
-          previous2.byMonth,
-          currentYear - 2 + " Assessments by Month",
-          "Months",
-          "Assessments",
-          true
-        );
+        //console.log(last2)
+        //console.log(last2.byTier)
 
-        TSR_View.renderBarChart(
-          "#AggregateByTier_3",
-          previous2.byTier,
-          currentYear - 2 + " Assessments by Tier",
-          "Tier",
-          "Assessments",
-          false
-        );
+        var newChart9 = new Chart(document.getElementById("2017LineChartAllRequests").getContext('2d'), {
+          type: 'line',
+          data: {
+            // Labels should be Date objects
+            labels: ['January', "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+            datasets: [{
+              fill: false,
+              label: 'TSR Requests',
+              data: last2.byMonth,
+              borderColor: "#e6194B",
+              backgroundColor: "#e6194B",
+              lineTension: 0,
+            }]
+          },
+          options: {
+            responsive: true,
+            title: {
+              display: true,
+              text: (currentYear - 2) + ' TSR Requests',
+              fontSize: 30,
+              padding: 30
+            },
+            legend: {
+              display: true,
+              position: 'top',
+              labels: {
+                fontSize: 16,
+                fontStyle: "bold"
+              }
+            },
+            tooltips: {
+              titleFontSize: 22,
+              bodyFontSize: 18,
+              xPadding: 10,
+              yPadding: 10
+            },
+            scales: {
+              xAxes: [{
+                display: true,
+                scaleLabel: {
+                  display: true,
+                  labelString: "Month",
+                  fontSize: 24
 
-        TSR_View.renderBarChart(
-          "#AggregateByLOB_3",
-          previous2.byLOB,
-          currentYear - 2 + " Assessments by LOB",
-          "Line of Business",
-          "Assessments",
-          true
-        );
+                }
+              }],
+              yAxes: [{
+                ticks: {
+                  beginAtZero: true,
+                },
+                display: true,
+                scaleLabel: {
+                  display: true,
+                  labelString: "TSR Requests",
+                  fontSize: 24
+                }
+              }]
+            },
+            animation: {
+              onProgress: function (animation) {
+                //progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+              },
+              onComplete: function (animation) {
+                $("#2017LineChartAllRequests").siblings('.active').addClass('disabled').removeClass('active');
+              }
+            }
+          }
+        });
 
-        TSR_View.renderBarChart(
-          "#HighAggregateByLOB_3",
-          previous2.byTierHighLOB,
-          currentYear - 2 + " Assessments by LOB (Tier 1 only)",
-          "Line of Business",
-          "Assessments",
-          true
-        );
+        var newChart10 = new Chart(document.getElementById("2017LineChartRequestsByLOB").getContext('2d'), {
+          type: 'line',
+          data: {
+            // Labels should be Date objects
+            labels: ['January', "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+            datasets: _.orderBy(last2.byLOB, ['data'], ['desc']).map(function (val) { return val.name }).map(function (item) {
+              return {
+                fill: false,
+                label: item === "Information Technology & Supply Chain" ? "IT & Supply Chain" : item,
+                data: last2.byLOBTime[item],
+                borderColor: colorPicker[item],
+                backgroundColor: colorPicker[item],
+                lineTension: 0
+              }
+            })
+          },
+          options: {
+            aspectRatio: 1.5,
+            responsive: true,
+            title: {
+              display: true,
+              text: (currentYear - 2) + ' TSR Requests by LOB',
+              fontSize: 30,
+              padding: 30
+            },
+            legend: {
+              display: true,
+              position: 'right',
+              labels: {
+                fontSize: 16,
+                fontStyle: "bold"
+              }
+            },
+            tooltips: {
+              titleFontSize: 22,
+              bodyFontSize: 18,
+              xPadding: 10,
+              yPadding: 10
+            },
+            scales: {
+              xAxes: [{
+                display: true,
+                scaleLabel: {
+                  display: true,
+                  labelString: "Month",
+                  fontSize: 24
+
+                }
+              }],
+              yAxes: [{
+                ticks: {
+                  beginAtZero: true,
+                },
+                display: true,
+                scaleLabel: {
+                  display: true,
+                  labelString: "TSR Requests",
+                  fontSize: 24
+                }
+              }]
+            },
+            animation: {
+              onProgress: function (animation) {
+                //progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+              },
+              onComplete: function (animation) {
+                $("#2017LineChartRequestsByLOB").siblings('.active').addClass('disabled').removeClass('active');
+              }
+            }
+          }
+        });
+
+        var newChart11 = new Chart(document.getElementById("2017PieChartRequestsByLOB").getContext('2d'), {
+          type: 'pie',
+          data: {
+            labels: _.orderBy(last2.byLOB, ['data'], ['desc']).map(function (val) { return val.name === "Information Technology & Supply Chain" ? "IT & Supply Chain" : val.name }),
+            datasets: [{
+              backgroundColor: _.orderBy(last2.byLOB, ['data'], ['desc']).map(function (val) { return colorPicker[val.name] }),
+              data: _.orderBy(last2.byLOB, ['data'], ['desc']).map(function (val) { return val.data })
+            }]
+          },
+          options: {
+            title: {
+              display: true,
+              text: (currentYear - 2) + ' TSR Requests by LOB',
+              fontSize: 30,
+              padding: 30
+            },
+            legend: {
+              display: true,
+              position: 'right',
+              labels: {
+                fontSize: 16,
+                fontStyle: "bold",
+                usePointStyle: true,
+                generateLabels: function (chart) {
+                  var data = chart.data;
+                  function getSum(total, num) {
+                    return total + num;
+                  }
+                  if (data.labels.length && data.datasets.length) {
+                    return data.labels.map(function (label, i) {
+                      var meta = chart.getDatasetMeta(0);
+                      var ds = data.datasets[0];
+                      var arc = meta.data[i];
+                      var custom = arc && arc.custom || {};
+                      var getValueAtIndexOrDefault = theHelp.getValueAtIndexOrDefault;
+                      var arcOpts = chart.options.elements.arc;
+                      var fill = custom.backgroundColor ? custom.backgroundColor : getValueAtIndexOrDefault(ds.backgroundColor, i, arcOpts.backgroundColor);
+                      var stroke = custom.borderColor ? custom.borderColor : getValueAtIndexOrDefault(ds.borderColor, i, arcOpts.borderColor);
+                      var bw = custom.borderWidth ? custom.borderWidth : getValueAtIndexOrDefault(ds.borderWidth, i, arcOpts.borderWidth);
+                      return {
+                        // And finally : 
+                        text: ((ds.data[i] / ds.data.reduce(getSum)) * 100).toFixed(2) + " % : " + label,
+                        fillStyle: fill,
+                        strokeStyle: stroke,
+                        lineWidth: bw,
+                        hidden: isNaN(ds.data[i]) || meta.data[i].hidden,
+                        index: i
+                      };
+                    });
+                  }
+                  return [];
+                }
+              }
+            },
+            tooltips: {
+              titleFontSize: 30,
+              bodyFontSize: 20,
+              xPadding: 10,
+              yPadding: 10
+            },
+            animation: {
+              onProgress: function (animation) {
+                //progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+              },
+              onComplete: function (animation) {
+                $("#2017PieChartRequestsByLOB").siblings('.active').addClass('disabled').removeClass('active');
+              }
+            }
+          },
+        });
+
+        var newChart12 = new Chart(document.getElementById("2017BarChartRequestsByLOB").getContext('2d'), {
+          type: 'bar',
+          data: {
+            labels: last2.byTier["Tier 1"].items.map(function (val) { return val.name }),
+            datasets: _.map(last2.byTier, function (item, index, arr) {
+              return {
+                label: [index],
+                data: item.items.map(function (val) { return val.data }),
+                backgroundColor: tierColorPicker[index].backgroundColor,
+                borderColor: tierColorPicker[index].borderColor,
+                borderWidth: 1.5
+              }
+            }).reverse()
+          },
+          options: {
+            aspectRatio: 1.5,
+            title: {
+              display: true,
+              text: (currentYear - 2) + ' TSR Requests by Tier',
+              fontSize: 30,
+              padding: 20
+            },
+            legend: {
+              display: true,
+              position: 'right',
+              labels: {
+                fontSize: 16,
+                fontStyle: "bold"
+              },
+              reverse: true
+            },
+            tooltips: {
+              titleFontSize: 18,
+              bodyFontSize: 15,
+              xPadding: 10,
+              yPadding: 10
+            },
+            scales: {
+              yAxes: [{
+                ticks: {
+                  beginAtZero: true
+                },
+                stacked: true
+              }],
+              xAxes: [{
+                stacked: true,
+                ticks: {
+                  autoSkip: false
+                }
+              }]
+            },
+            animation: {
+              onProgress: function (animation) {
+                //progress.value = animation.animationObject.currentStep / animation.animationObject.numSteps;
+              },
+              onComplete: function (animation) {
+                $("#2017BarChartRequestsByLOB").siblings('.active').addClass('disabled').removeClass('active');
+              }
+            }
+          }
+        });
+
+
+
+
+
       });
     }
   };

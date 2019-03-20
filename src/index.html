@@ -5,7 +5,7 @@
   <meta charset=UTF-8 />
   <meta name=viewport content="width=device-width,initial-scale=1" />
   <meta http-equiv=X-UA-Compatible content="ie=edge" />
-  <title>TSR User Interface</title>
+  <title>Work App</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700" rel=stylesheet />
   <link rel=stylesheet type=text/css href=https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css />
   <link rel=stylesheet href=//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css />
@@ -19,6 +19,7 @@
   <script src=https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js></script>
   <script src=https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.js></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
 </head>
 
@@ -95,28 +96,16 @@
                       <div action=# class=formItem>
                         <label for=VendorName class=formItem__label>Vendor Name</label>
                         <div class=formItem__container>
-                          <input type=text class=formItem__container--text name=VendorName id=K_vendorName value="" />
+                          <input type=text class=formItem__container--text name=VendorName id=K_vendorName value="Radius Global" />
                           <input type=button id=btn-1 class=formItem__container--btn value=Update /> </div>
                       </div>
                     </div>
                     <div class="one-third K_column">
                       <div action=# class=formItem>
-                        <label for=LOB class=formItem__label>LOB</label>
+                        <label for=LOB class=formItem__label>Line of Business</label>
                         <div class=formItem__container>
                           <select name=LOB class=formItem__container--select id=K_LOB>
-                            <option>Corporate Services</option>
-                            <option>Customer Care & CRE</option>
-                            <option>Electric Operations</option>
-                            <option>Ethics & Compliance</option>
-                            <option>Finance & Risk</option>
-                            <option>Gas Operations</option>
-                            <option>General Counsel/Law</option>
-                            <option>Generation</option>
-                            <option>Human Resources</option>
-                            <option>Information Technology & Supply Chain</option>
-                            <option>Press/CEO/COO</option>
-                            <option>Safety Health and Enterprise</option>
-                            <option>Strategy & Policy</option>
+
                           </select>
                           <input type=button id=btn-2 class=formItem__container--btn value=Update /> </div>
                       </div>
@@ -133,7 +122,7 @@
                   <div class=K_row>
                     <div class="one-third K_column">
                       <div action=# class=formItem>
-                        <label for=LOB class=formItem__label>Type</label>
+                        <label for=LOB class=formItem__label>Assessment Type</label>
                         <div class=formItem__container>
                           <select name=LOB class=formItem__container--select id=K_Tier>
                             <option>1</option>
@@ -154,7 +143,7 @@
                     </div>
                     <div class="one-third K_column">
                       <div action=# class=formItem>
-                        <label for=VendorName class=formItem__label>SMC WO Number</label>
+                        <label for=VendorName class=formItem__label>SMC Work Order Number</label>
                         <div class=formItem__container>
                           <input type=text class=formItem__container--text name=VendorName id=K_workOrderNum />
                           <input type=button id=btn-6 class=formItem__container--btn value=Update /> </div>
@@ -164,7 +153,7 @@
                   <div class=K_row>
                     <div class="one-third K_column">
                       <div action=# class=formItem>
-                        <label for=LOB class=formItem__label>Classification</label>
+                        <label for=LOB class=formItem__label>Information Classification</label>
                         <div class=formItem__container>
                           <select name=LOB class=formItem__container--select id=K_infoClass>
                             <option>Public</option>
@@ -180,11 +169,15 @@
                         <label for=LOB class=formItem__label>Assessor</label>
                         <div class=formItem__container>
                           <select name=LOB class=formItem__container--select id=K_assessor>
-                            <option>PERSON 1</option>
-                            <option>PERSON 2</option>
-                            <option>PERSON 3</option>
-                            <option>PERSON 4</option>
-                            <option>PERSON 5</option>
+                            <!--
+                            <option>C4RV</option>
+                            <option>DLKT</option>
+                            <option>EXTERNAL</option>
+                            <option>JN2B</option>
+                            <option>K3BI</option>
+                            <option>M2O1</option>
+                            <option>YBW1</option>
+                            -->
                           </select>
                           <input type=button id=btn-8 class=formItem__container--btn value=Update /> </div>
                       </div>
@@ -641,28 +634,37 @@
 
                   <div class="equal width row">
                     <div class="center aligned column">
-                      <div id=AggregateByTier_1>
-                        <div class=tooltip></div>
+                      <div class="ui active inverted dimmer">
+                        <div class="ui large text loader">Loading</div>
                       </div>
-                    </div>
-                    <div class="center aligned column">
-                      <div id=AggregateByLOB_1>
-                        <div class=tooltip></div>
-                      </div>
+                      <canvas id="2019LineChartAllRequests" class="MyCharts"></canvas>
                     </div>
                   </div>
 
+                  <div class="equal width row">
+                    <div class="center aligned column">
+                      <div class="ui active inverted dimmer">
+                        <div class="ui large text loader">Loading</div>
+                      </div>
+                      <canvas id="2019LineChartRequestsByLOB" class="MyCharts"></canvas>
+                    </div>
+                  </div>
 
                   <div class="equal width row">
                     <div class="center aligned column">
-                      <div id=AggregateByMonth_1>
-                        <div class=tooltip></div>
+                      <div class="ui active inverted dimmer">
+                        <div class="ui large text loader">Loading</div>
                       </div>
+                      <canvas id="2019PieChartRequestsByLOB" class="MyCharts"></canvas>
                     </div>
+                  </div>
+
+                  <div class="equal width row">
                     <div class="center aligned column">
-                      <div id=HighAggregateByLOB_1>
-                        <div class=tooltip></div>
+                      <div class="ui active inverted dimmer">
+                        <div class="ui large text loader">Loading</div>
                       </div>
+                      <canvas id="2019BarChartRequestsByLOB" class="MyCharts"></canvas>
                     </div>
                   </div>
 
@@ -767,30 +769,45 @@
                       </div>
                     </div>
                   </div>
+
+
                   <div class="equal width row">
                     <div class="center aligned column">
-                      <div id=AggregateByTier_2>
-                        <div class=tooltip></div>
+                      <div class="ui active inverted dimmer">
+                        <div class="ui large text loader">Loading</div>
                       </div>
-                    </div>
-                    <div class="center aligned column">
-                      <div id=AggregateByLOB_2>
-                        <div class=tooltip></div>
-                      </div>
+                      <canvas id="2018LineChartAllRequests" class="MyCharts"></canvas>
                     </div>
                   </div>
+
                   <div class="equal width row">
                     <div class="center aligned column">
-                      <div id=AggregateByMonth_2>
-                        <div class=tooltip></div>
+                      <div class="ui active inverted dimmer">
+                        <div class="ui large text loader">Loading</div>
                       </div>
-                    </div>
-                    <div class="center aligned column">
-                      <div id=HighAggregateByLOB_2>
-                        <div class=tooltip></div>
-                      </div>
+                      <canvas id="2018LineChartRequestsByLOB" class="MyCharts"></canvas>
                     </div>
                   </div>
+
+                  <div class="equal width row">
+                    <div class="center aligned column">
+                      <div class="ui active inverted dimmer">
+                        <div class="ui large text loader">Loading</div>
+                      </div>
+                      <canvas id="2018PieChartRequestsByLOB" class="MyCharts"></canvas>
+                    </div>
+                  </div>
+
+                  <div class="equal width row">
+                    <div class="center aligned column">
+                      <div class="ui active inverted dimmer">
+                        <div class="ui large text loader">Loading</div>
+                      </div>
+                      <canvas id="2018BarChartRequestsByLOB" class="MyCharts"></canvas>
+                    </div>
+                  </div>
+
+
                   <div class="centered row">
                     <div class="sixteen wide center aligned column"> </div>
                   </div>
@@ -891,30 +908,44 @@
                       </div>
                     </div>
                   </div>
+
                   <div class="equal width row">
                     <div class="center aligned column">
-                      <div id=AggregateByTier_3>
-                        <div class=tooltip></div>
+                      <div class="ui active inverted dimmer">
+                        <div class="ui large text loader">Loading</div>
                       </div>
-                    </div>
-                    <div class="center aligned column">
-                      <div id=AggregateByLOB_3>
-                        <div class=tooltip></div>
-                      </div>
+                      <canvas id="2017LineChartAllRequests" class="MyCharts"></canvas>
                     </div>
                   </div>
+
                   <div class="equal width row">
                     <div class="center aligned column">
-                      <div id=AggregateByMonth_3>
-                        <div class=tooltip></div>
+                      <div class="ui active inverted dimmer">
+                        <div class="ui large text loader">Loading</div>
                       </div>
-                    </div>
-                    <div class="center aligned column">
-                      <div id=HighAggregateByLOB_3>
-                        <div class=tooltip></div>
-                      </div>
+                      <canvas id="2017LineChartRequestsByLOB" class="MyCharts"></canvas>
                     </div>
                   </div>
+
+                  <div class="equal width row">
+                    <div class="center aligned column">
+                      <div class="ui active inverted dimmer">
+                        <div class="ui large text loader">Loading</div>
+                      </div>
+                      <canvas id="2017PieChartRequestsByLOB" class="MyCharts"></canvas>
+                    </div>
+                  </div>
+
+                  <div class="equal width row">
+                    <div class="center aligned column">
+                      <div class="ui active inverted dimmer">
+                        <div class="ui large text loader">Loading</div>
+                      </div>
+                      <canvas id="2017BarChartRequestsByLOB" class="MyCharts"></canvas>
+                    </div>
+                  </div>
+
+
                   <div class="centered row">
                     <div class="sixteen wide center aligned column"> </div>
                   </div>
@@ -926,7 +957,7 @@
                 <div class="ui internally celled middle aligned grid">
                   <div class="equal width row">
                     <div class="center aligned column">
-                      <h1 class="ui header">2019 Monthly Aggregate</h1>
+                      <h1 class="ui header">2019 TSR Aggregate Work </h1>
                     </div>
                   </div>
 
@@ -944,7 +975,7 @@
                     <div class="center aligned column">
                       <div class="ui statistic">
                         <div class=value id=Total_Active>0</div>
-                        <div class=label>Active</div>
+                        <div class=label>Ongoing</div>
                       </div>
                     </div>
                   </div>
@@ -967,6 +998,9 @@
                   <div class="equal width row">
                     <div class="center aligned column">
 
+                      <div class="ui active inverted dimmer">
+                        <div class="ui large text loader">Loading</div>
+                      </div>
                       <canvas id="AggregateByTier" class="MyCharts"></canvas>
                       <!--
                       <div id=AggregateByTier>
@@ -978,27 +1012,39 @@
 
                   <div class="equal width row">
                     <div class="center aligned column">
-                      <div id=AggregateByMonth>
-                        <div class=tooltip></div>
+
+                      <div class="ui active inverted dimmer">
+                        <div class="ui large text loader">Loading</div>
                       </div>
+                      <canvas id="HighRiskByLOBPieChart" class="MyCharts"></canvas>
+
                     </div>
+                  </div>
+
+
+                  <div class="equal width row">
                     <div class="center aligned column">
-                      <div id=HighAggregateByLOB>
-                        <div class=tooltip></div>
+
+                      <div class="ui active inverted dimmer">
+                        <div class="ui large text loader">Loading</div>
                       </div>
+                      <canvas id="ActiveTSRByLOB" class="MyCharts"></canvas>
+
                     </div>
                   </div>
 
                   <div class="equal width row">
                     <div class="center aligned column">
 
-                      <canvas id="MyCharts" class="MyCharts"></canvas>
-
-                    </div>
-                    <div class="center aligned column">
+                      <div class="ui active inverted dimmer">
+                        <div class="ui large text loader">Loading</div>
+                      </div>
+                      <canvas id="CompleteTSRByLOB" class="MyCharts"></canvas>
 
                     </div>
                   </div>
+
+
                   <div class="centered row">
                     <div class="sixteen wide center aligned column"> </div>
                   </div>

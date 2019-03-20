@@ -388,6 +388,13 @@ body {
   min-width: 1000px;
   max-width: 1200px; }
 
+#sideNavBox {
+  display: none;
+  width: 0px; }
+
+#contentBox {
+  margin-left: 0px !important; }
+
 .tooltip {
   position: absolute;
   background-color: black;
